@@ -1,0 +1,44 @@
+.middleLevel {
+    padding-top: 40px;
+}
+.bottomLevel {
+    padding-top: 70px;
+}
+.description {
+    max-width: 550px;
+}
+.stats h1 {
+    color: #345DEE !important;
+}
+.stats div[class="chart"]  {
+    min-width: 700px;
+}
+
+.dark.stats h1 {
+    color: #ffffff !important;
+}
+
+@media screen and (max-width: 768px) {
+    .chartWrapper {
+        overflow-x: scroll;
+    }
+}
+@media screen and (max-width: 575px) {
+    .stats  div[class^="Tabs"] {
+        max-width: 350px;
+        padding-top: 30px;
+    }
+    .bottomLevel {
+        padding-top: 40px;
+    }
+    .buttonColumn {
+        margin-top: 20px;
+        justify-content: flex-start !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

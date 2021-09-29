@@ -1,0 +1,24 @@
+.feature {
+    padding: 30px 0;
+    border-bottom: 1px solid #DFE4EA;
+}
+
+.description {
+    margin-top: 5px !important;
+}
+
+.noborder {
+    border-bottom: none;
+}
+
+.dark {
+    border-color: #1D2C6B;
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+ 
+}

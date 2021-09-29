@@ -1,0 +1,17 @@
+.Divider {
+    width: 100%;
+    height: 1px;
+    background-color: #DFE4EA;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.dark .Divider {
+    background-color: #1D2C6B;
+}
+.vertical.Divider {
+    position: relative;
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    margin: 0 8px;
+}

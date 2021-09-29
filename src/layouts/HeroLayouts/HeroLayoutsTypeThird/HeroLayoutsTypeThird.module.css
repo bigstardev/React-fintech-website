@@ -1,0 +1,114 @@
+
+.hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.hero h1 {
+    text-align: left;
+}
+.description {
+    padding-top: 14px !important;
+    padding-right: 200px !important;
+}
+.buttonElement {
+    padding-top: 36px;
+}
+.socials {
+    padding-top: 160px;
+}
+.contentRow {
+    padding-top: 105px;
+}
+.HeroLayoutsTypeThird .navbar-nav .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.4px;
+    color: #18214D !important;
+}
+.hero img {
+    width: auto;
+}
+.hero .firstImage {
+    top: 290px;
+    left: 500px;
+    z-index: 999;
+}
+.hero .secondImage {
+    top: -560px;
+    left: 670px;
+}
+.hero .firstImage,
+.hero .secondImage {
+    transform: rotate(-15deg);
+}
+
+@media screen and (max-width: 991px) {
+    .description {
+        padding-right: 100px !important;
+    }
+    .hero .firstImage {
+        top: 100px;
+        left: 450px;
+        z-index: 999;
+    }
+    .hero .secondImage {
+        top: -680px;
+        left: 420px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contentRow {
+        padding-top: 70px;
+    }
+    .hero .firstImage {
+       display: none;
+    }
+    .hero .rightColumn {
+        padding-top: 150px;
+    }
+    .hero .secondImage {
+        width: 795px;
+        height: 490px;
+        position: static !important;
+    }
+    .socials {
+        padding-top: 60px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .contentRow {
+        padding-top: 0;
+    }
+    .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .hero h1 {
+        max-width: 290px;
+    }
+    .description {
+        max-width: 360px;
+        padding-right: 45px !important;
+    }
+    .socials {
+        padding-top: 50px;
+    }
+    .hero  a[class*="Button "] {
+        height: 50px !important;
+        font-size: 18px !important;
+        line-height: 50px !important;
+    }
+
+    .hero {
+        padding-bottom: 59px;
+    }
+}

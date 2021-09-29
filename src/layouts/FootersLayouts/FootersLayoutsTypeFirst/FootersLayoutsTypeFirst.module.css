@@ -1,0 +1,116 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 55px;
+}
+.companyItem a {
+    font-style: normal;
+    font-size: 16px !important;
+    line-height: 26px !important;
+    letter-spacing: -0.2px !important;
+    color: #3E4462;
+    text-decoration: none;
+}
+.socials {
+    justify-content: flex-end;
+}
+.companyItem a:hover {
+  color: #000000;
+}
+.companyList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.socials {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.footer  header {
+    padding-bottom: 16px;
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.4px;
+    color: #18214D;
+}
+.item:nth-last-child(2)  {
+    padding-left: 30px;
+}
+.item:nth-last-child(1)  {
+    padding-left: 20px;
+}
+.companyItem {
+    padding-top: 8px;
+}
+.dividerRow {
+    padding-top: 50px;
+    padding-bottom: 26px;
+}
+.dark header  {
+    color: #ffffff !important;
+}
+.dark .companyItem a {
+   color: rgba(255, 255, 255, 0.5);
+    mix-blend-mode: normal;
+}
+.dark .companyItem a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+@media screen and (max-width: 1200px) {
+    .item:nth-last-child(2)  {
+        padding-left: 15px;
+    }
+    .item:nth-last-child(1)  {
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+    .item {
+        margin-bottom: 40px;
+    }
+    .item:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+    .dividerRow {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .formColumn {
+        padding-top: 30px;
+    }
+    .formGroup {
+        margin-bottom: 15px;
+    }
+    .socials {
+        margin-top: 25px;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .item {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .dividerRow {
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+}

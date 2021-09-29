@@ -1,0 +1,42 @@
+.feature h1 {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 62px;
+    letter-spacing: -2.4px;
+    color: #18214D;
+}
+.feature .title {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.55px;
+    color: #18214D;
+}
+
+.feature p {
+    padding-top: 5px !important;
+}
+.feature .col {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.feature .leftCol {
+    padding-right: 0 !important;
+}
+@media screen and (max-width: 450px) {
+    .title {
+        font-size: 20px !important;
+        line-height: 27px !important;
+        letter-spacing: -0.5px !important;
+    }
+}

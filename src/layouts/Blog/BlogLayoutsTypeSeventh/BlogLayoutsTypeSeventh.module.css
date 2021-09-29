@@ -1,0 +1,31 @@
+.item {
+
+}
+
+@media screen and (max-width: 991px) {
+    .aside {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+        margin-bottom: 30px;
+    }
+    .aside {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .item > div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

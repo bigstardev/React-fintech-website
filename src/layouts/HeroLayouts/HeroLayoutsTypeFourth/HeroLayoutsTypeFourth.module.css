@@ -1,0 +1,76 @@
+.hero {
+  padding-top: 60px;
+  padding-bottom: 65px;
+}
+.contentRow {
+    padding-top: 85px;
+}
+.description {
+    padding: 0 60px !important;
+    padding-top: 16px !important;
+}
+.buttonsSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 55px;
+}
+.mockupSection {
+    padding-top: 61px;
+    max-height: 370px;
+    overflow: hidden;
+}
+
+.playButton {
+    transition: all 0.2s ease-in-out;
+}
+.playButton:hover {
+    opacity: 0.8;
+    transform: scale(0.7);
+}
+
+@media screen and (max-width: 1200px) {
+    .description {
+        padding: 0 30px !important;
+        padding-top: 16px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .description {
+        padding: 0 60px !important;
+        padding-top: 16px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .hero h1 {
+        padding: 0 !important;
+        max-width: 350px;
+        margin: 0 auto !important;
+    }
+    .contentRow {
+        padding-top: 60px;
+    }
+    .description {
+        padding: 0 !important;
+        padding-top: 16px !important;
+        max-width: 330px;
+        margin: 0 auto !important;
+    }
+
+    .buttonsSection {
+        padding-top: 45px;
+    }
+    .buttonsSection a[class*="PlayButton"],
+    .buttonsSection a[class*="PlayButton"] svg {
+        width: 48px !important;
+        height: 48px !important;
+    }
+     .mockupSection {
+        padding-top: 40px;
+        max-height: 175px;
+    }
+}

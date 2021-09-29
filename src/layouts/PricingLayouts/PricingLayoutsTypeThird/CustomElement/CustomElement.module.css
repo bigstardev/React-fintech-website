@@ -1,0 +1,21 @@
+.custom {
+    background-color: transparent !important;
+}
+.custom a[class*="Button"],
+.custom button[class*="Button"] {
+    background-color: #345DEE !important;
+    color: #ffffff !important;
+}
+.custom  div[class*="inner"] {
+    background-color: #EFF2F6;
+}
+.custom a[class*="Button"]:hover,
+.custom button[class*="Button"]:hover {
+    background-color: #6383F2 !important;
+    border-color: transparent !important;
+}
+
+.dark.custom div[class*="inner"]{
+    background-color: #1D2C6B;
+    border: 2px solid transparent;
+}

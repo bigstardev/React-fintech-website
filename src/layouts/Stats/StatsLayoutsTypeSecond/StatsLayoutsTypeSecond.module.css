@@ -1,0 +1,36 @@
+.bottomLevel {
+    padding-top: 70px;
+}
+.stats div[class="chart"]  {
+    min-width: 700px;
+}
+
+.tabs {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .chartWrapper {
+        overflow-x: scroll;
+    }
+}
+@media screen and (max-width: 575px) {
+    .stats  div[class^="Tabs"] {
+        max-width: 350px;
+        padding-top: 30px;
+    }
+
+    .bottomLevel {
+        padding-top: 40px;
+    }
+    .buttonColumn {
+        padding-top: 40px;
+        justify-content: flex-start !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

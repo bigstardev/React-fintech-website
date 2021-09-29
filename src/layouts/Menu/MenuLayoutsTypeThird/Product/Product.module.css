@@ -1,0 +1,158 @@
+.product {
+    margin-bottom: 40px;
+}
+
+.product div[class*="number-input"] {
+    width: 120px;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 125px auto 95px;
+    grid-gap: 25px;
+    grid-template-rows: 140px;
+    border-bottom: 1px solid #EFF2F6;
+}
+
+.title {
+    max-width: 270px;
+}
+
+.cover {
+    height: 100%;
+    border-radius: 8px;
+}
+
+.description {
+    padding-top: 8px !important;
+    font-size: 16px !important;
+    letter-spacing: -0.2px !important;
+    color: #3E4462 !important;
+}
+
+.left {}
+
+.center, .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    grid-column: 2/-1;
+    grid-row: 1;
+}
+
+.right {
+    grid-column: 3/-1;
+    grid-row: 1;
+}
+
+.custom,
+.total {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: -0.55px;
+    color: #18214D;
+}
+
+.total {
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.close {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.custom {
+    display: none;
+}
+
+/*dark*/
+
+.dark .wrapper {
+    border-color: #1D2C6B;
+}
+
+.dark .total,
+.dark .custom {
+    color: #ffffff;
+}
+
+.dark .close svg path {
+    fill: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+    .product {
+        margin-bottom: 30px;
+    }
+    .wrapper {
+        padding-bottom: 30px;
+        grid-template-columns: 160px auto 95px;
+        grid-gap: 30px;
+        grid-template-rows: 170px;
+    }
+    .total, .product div[class*="number-input"] {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: 110px auto 95px;
+        grid-template-rows: 145px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .custom {
+        display: block;
+    }
+    .total {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .product {
+        margin-bottom: 40px;
+    }
+    .product .close {
+        margin-top: -25px;
+    }
+    .product div[class*="number-input"] {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .wrapper {
+        grid-template-columns: 110px auto 95px;
+        grid-gap: 20px;
+        grid-template-rows: auto;
+    }
+    .title, .description {
+        font-size: 16px !important;
+        line-height: 140% !important;
+        letter-spacing: -0.4px !important;
+    }
+    .product div[class*="number-input"] {
+        width: 125px;
+    }
+    .total {
+        font-weight: 600 !important;
+        font-size: 16px !important;
+        line-height: 140% !important;
+        letter-spacing: -0.4px !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+}

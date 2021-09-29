@@ -1,0 +1,12 @@
+@media screen and (max-width: 991px) {
+    .form .item {
+        margin-bottom: 15px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .form button[class*="Button"],
+    .form a[class*="Button"] {
+        height: 50px !important;
+        font-size: 18px !important;
+    }
+}

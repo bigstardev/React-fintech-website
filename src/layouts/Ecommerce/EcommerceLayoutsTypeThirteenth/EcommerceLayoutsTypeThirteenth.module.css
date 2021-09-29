@@ -1,0 +1,63 @@
+.ecommerce {
+    overflow: hidden;
+}
+.ecommerce  .contentRow {
+    padding-top: 60px;
+}
+.ecommerce .item img {
+    height: 400px;
+}
+.ecommerce .item {
+    margin-bottom: 40px;
+}
+.ecommerce .item:nth-last-child(-n+2) {
+    margin-bottom: 0;
+}
+.ecommerce  .buttonColumn {
+    padding-top: 40px;
+}
+
+.dark.ecommerce .item > p {
+    color: #ffffff !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .ecommerce  .item img {
+        height: 350px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .ecommerce .item img {
+        height: 280px;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .ecommerce .cardsColumn {
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .ecommerce  .item img {
+        height: auto;
+    }
+    .ecommerce  .item:nth-last-child(-n+2) {
+        margin-bottom: 40px;
+    }
+    .ecommerce  .item:nth-last-child(-n+1) {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .ecommerce .item {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        margin-bottom: 30px;
+    }
+}
+
+

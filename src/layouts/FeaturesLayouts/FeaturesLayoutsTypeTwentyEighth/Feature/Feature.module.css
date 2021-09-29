@@ -1,0 +1,30 @@
+.feature {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border: 2px solid #DFE4EA;
+    border-radius: 8px;
+}
+
+.feature img {
+    width: auto;
+}
+
+.description {
+    margin-top: 10px !important;
+}
+
+.title {
+    margin-top: 40px !important;
+}
+
+.dark {
+    border-color: #1D2C6B;
+}
+
+@media screen and (max-width: 768px) {
+   
+}
+

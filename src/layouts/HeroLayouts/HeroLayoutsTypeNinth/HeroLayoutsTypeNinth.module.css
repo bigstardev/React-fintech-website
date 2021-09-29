@@ -1,0 +1,124 @@
+.hero {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+.hero h1 {
+    max-width: 400px;
+}
+.contentRow {
+    padding-top: 90px;
+}
+.bottomSection   div[class*="socials"] {
+    display: flex;
+    justify-content: flex-end;
+}
+.bottomSection   div[class*="socials"] p {
+    display: none;
+}
+.bottomSection   div[class*="socials"] div[class*="Oval"] {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+}
+.form {
+    padding-top: 36px;
+    padding-right: 55px;
+}
+.description {
+    padding-top: 20px !important;
+    max-width: 450px;
+}
+.bottomSection {
+    padding-top: 70px;
+}
+.hero strong {
+    text-align: left;
+}
+.leftColumn {
+    padding-left: 50px;
+}
+@media screen and (max-width: 991px) {
+
+    .contentRow {
+        padding-top: 50px;
+    }
+    .hero h1 {
+        max-width: 500px;
+    }
+    .leftColumn {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 50px;
+
+        order: -1;
+    }
+
+    .description {
+        padding-top: 20px !important;
+        padding-right: 0;
+        max-width: 480px;
+    }
+    .bottomSection  div[class*="col-md-6"]:nth-last-child(1) {
+        padding-right: 70px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .leftColumn {
+        margin-bottom: 50px;
+    }
+    .form {
+        padding-right: 0;
+    }
+    .bottomSection  div[class*="col-md-6"]:nth-last-child(1) {
+        padding-right: 15px;
+    }
+    .HeroLayoutsTypeNinth .form-row {
+        flex-direction: column;
+    }
+    .HeroLayoutsTypeNinth .form-row .Button {
+        width: 100%;
+    }
+    .HeroLayoutsTypeNinth .form-row .col-auto {
+        width: 100%;
+    }
+    .HeroLayoutsTypeNinth .form-control {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .bottomSection   div[class*="socials"]  {
+        margin-top: 15px;
+        justify-content: flex-start !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .description {
+        padding-right: 0 !important;
+    }
+    .hero h1 {
+        max-width: 265px;
+        padding-right: 0;
+    }
+    .bottomSection {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+    .form {
+        padding-top: 25px;
+    }
+    .bottomSection {
+        padding-top: 60px;
+    }
+    .bottomSection  div[class*="col-md-6"]:nth-last-child(1) {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+

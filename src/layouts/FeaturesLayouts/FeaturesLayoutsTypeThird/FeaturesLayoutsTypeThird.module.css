@@ -1,0 +1,90 @@
+.features {
+    overflow: hidden;
+}
+.description {
+    padding-top: 16px !important;
+    max-width: 420px;
+}
+.leftColumn {
+    padding-right: 80px;
+}
+.rightColumn {
+    padding-top: 40px;
+}
+.rightColumn .button {
+    margin-top: 35px;
+}
+.features img {
+    width: auto;
+}
+
+@media screen and (max-width: 991px) {
+    .features img[class*="first-image"] {
+        display: none !important;
+
+    }
+    .features img[class*="second-image"] {
+        position: relative;
+        left: -45px;
+    }
+    .rightColumn {
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .features img[class*="first-image"] {
+        display: block !important;
+        left: 380px !important;
+    }
+    .features img[class*="second-image"] {
+        position: relative;
+        left: 0;
+        margin-right: auto !important;
+        margin-left: initial !important;
+    }
+    .rightColumn {
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .features img {
+        width: 300px !important;
+        height: 345px !important;
+    }
+    .features img[class*="first-image"] {
+        left: 330px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .features h1 {
+        max-width: 300px;
+    }
+    .leftColumn .col {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .button {
+        height: 50px !important;
+        font-size: 18px !important;
+        line-height: 50px !important;
+    }
+    .rightColumn {
+        padding-top: 30px;
+    }
+    .description {
+        max-width: 330px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .leftColumn {
+        padding-right: 15px !important;
+    }
+    .features img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}

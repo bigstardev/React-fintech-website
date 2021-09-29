@@ -1,0 +1,22 @@
+.item {
+    margin-bottom: 30px;
+}
+.item:nth-last-child(1) {
+    margin-bottom: 0;
+}
+.leftColumn {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 450px) {
+    .item {
+        padding-left: 9px !important;
+        padding-right: 9px !important;
+        margin-bottom: 18px;
+    }
+    .rightColumn ,
+    .leftColumn {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

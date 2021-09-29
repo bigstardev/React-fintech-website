@@ -1,0 +1,7 @@
+.products {
+    margin-top: 40px;
+}
+
+.productWrapper > div:last-child > div > div {
+  border-bottom: none;
+}

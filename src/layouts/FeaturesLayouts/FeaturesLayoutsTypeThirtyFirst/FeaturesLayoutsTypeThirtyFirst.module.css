@@ -1,0 +1,47 @@
+.contentRow {
+  padding-top: 60px;
+}
+
+.item {
+  margin-top: 55px;
+}
+
+.item:nth-child(1),
+.item:nth-child(2) {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .item {
+    margin-top: 30px;
+  }
+
+  .item:nth-child(1),
+  .item:nth-child(2) {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .item,
+  .item:nth-child(2) {
+    margin-top: 30px;
+  }
+
+  .item:nth-child(1) {
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .contentRow {
+    padding-top: 30px;
+  }
+
+  .gridWrapper {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+}
+

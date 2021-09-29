@@ -1,0 +1,31 @@
+.leftColumn img {
+  height: 100%;
+}
+
+.rightColumn {
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .rightColumn {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .leftColumn img {
+    height: auto;
+  }
+  .rightColumn {
+    margin-top: 30px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .gridWrapper {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+}
+

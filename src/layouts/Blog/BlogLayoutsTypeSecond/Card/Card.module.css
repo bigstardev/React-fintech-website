@@ -1,0 +1,76 @@
+.card {
+
+}
+
+.link {
+    display: block;
+    cursor: pointer;
+    text-decoration: none !important;
+    transition: all 0.2s ease-in-out;
+    outline: 0px !important;
+}
+
+.link:hover {
+    opacity: 0.6;
+}
+
+.header {
+    display: flex;
+    padding-top: 20px;
+}
+
+.textContent {
+    padding-right: 40px;
+}
+
+.header div {
+    position: relative;
+    padding-right: 20px;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+    letter-spacing: -0.4px;
+    color: rgba(62, 68, 98, 0.5);
+}
+
+.header div:first-of-type:before {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgba(62, 68, 98, 0.5);
+}
+
+.title {
+    margin: 5px 0 !important;
+}
+
+.description {
+
+}
+
+.textContent {
+    padding-right: 70px;
+}
+
+/*dark*/
+
+.dark .header div {
+    color: #ffffff;
+}
+
+.dark .header div:first-of-type:before {
+    background-color: #ffffff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .textContent {
+        padding-right: 30px;
+    }
+}

@@ -1,0 +1,107 @@
+.ecommerce {
+    background-color: #EFF2F6;
+}
+.ecommerce img {
+    border-radius: 8px;
+}
+.ecommerce .gridWrapper {
+    margin-top: 60px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.ecommerce .gridWrapper > .leftColumn {
+    grid-column: 1/2;
+}
+.ecommerce .gridWrapper > .rightColumn {
+    grid-column: 2/-1;
+}
+
+.ecommerce .gridWrapper > .leftColumn > .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding: 0;
+    background-color: transparent;
+}
+
+.ecommerce .gridWrapper > .leftColumn .item,
+.ecommerce .gridWrapper > .rightColumn .item {
+    padding: 20px;
+    background: moccasin;
+    border-radius: 8px;
+}
+
+.ecommerce .gridWrapper > .rightColumn .item {
+    padding-top: 55px;
+    background: antiquewhite;
+    height: 100%;
+}
+
+.ecommerce  .rightColumn img {
+    height: 530px;
+}
+
+.ecommerce  .leftColumn img {
+    height: 215px;
+}
+.ecommerce .wrapper a {
+    display: block;
+}
+
+.dark.ecommerce  {
+    background: #0C1431;
+}
+
+@media screen and (max-width: 1200px) {
+    .ecommerce  .leftColumn img {
+        height: 190px;
+    }
+    .ecommerce  .rightColumn img {
+        height: 480px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .ecommerce  .leftColumn img {
+        height: 135px;
+    }
+    .ecommerce  .rightColumn img {
+        height: 375px;
+    }
+    .ecommerce .gridWrapper {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ecommerce img {
+        height: auto !important;
+    }
+    .ecommerce .gridWrapper > .leftColumn {
+        grid-column: 1/-1;
+    }
+    .ecommerce .gridWrapper > .rightColumn {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+}
+@media screen and (max-width: 575px) {
+    .ecommerce .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .ecommerce .gridWrapper > .leftColumn > .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 450px) {
+    .ecommerce .gridWrapper {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+

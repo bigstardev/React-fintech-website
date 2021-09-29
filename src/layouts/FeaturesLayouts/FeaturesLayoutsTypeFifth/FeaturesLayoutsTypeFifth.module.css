@@ -1,0 +1,58 @@
+.container {
+    max-width: 100% !important;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.features img {
+    height: auto;
+}
+.features h1 {
+    max-width: 660px;
+    margin: 0 auto !important;
+    text-align: center;
+}
+.sliderRow {
+    margin-top: 40px;
+}
+.descriptionRow {
+    margin-top: 40px;
+}
+.description {
+    max-width: 580px;
+    margin: 0 auto !important;
+    text-align: center;
+}
+.buttonRow {
+    padding-top: 40px;
+}
+@media screen and (max-width: 768px) {
+    .features h1 {
+        max-width: 550px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .features h1 {
+        max-width: 320px;
+    }
+    .description {
+        max-width: 310px;
+        margin: 0 auto !important;
+        text-align: center;
+    }
+    .descriptionRow {
+        margin-top: 50px;
+    }
+    .buttonRow .button {
+        height: 50px !important;
+        font-size: 18px !important;
+        line-height: 50px !important;
+    }
+
+}

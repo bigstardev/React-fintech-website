@@ -1,0 +1,58 @@
+.customModal div[class*="modal-content"] {
+    border-radius: 8px;
+}
+.customModal div[class*="modal-dialog "] {
+    max-width: 410px;
+}
+.customModal div[class*="modal-body"] {
+    padding: 30px;
+    padding-top: 35px;
+}
+.customModal .description {
+    padding: 0 40px !important;
+    padding-top: 14px !important;
+}
+.customModal .buttons {
+    padding-top: 30px;
+}
+.customModal a[class*="ButtonSocial"] {
+    margin-bottom: 15px;
+}
+.customModal a[class*="ButtonSocial"]:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.dark.customModal div[class*="modal-content"] {
+    background-color: #162150;
+    border: 1px solid transparent;
+}
+
+@media screen and (max-width: 575px) {
+    .customModal div[class*="modal-dialog"] {
+        max-width: 410px;
+        margin: 0 auto !important;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .customModal .description {
+        padding: 0 15px !important;
+        padding-top: 15px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .customModal a[class*="ButtonSocial"] {
+        font-size: 16px;
+    }
+    .customModal .description {
+        padding: 0 !important;
+        padding-top: 15px !important;
+    }
+    .customModal div[class*="modal-dialog"] {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .customModal div[class*="modal-body"] {
+        padding: 20px;
+        padding-top: 25px;
+    }
+}

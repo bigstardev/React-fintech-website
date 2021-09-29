@@ -1,0 +1,131 @@
+.hero h1 {
+    max-width: 420px;
+}
+
+.form {
+    padding-top: 36px;
+    padding-right: 85px;
+}
+.description {
+    padding-top: 20px !important;
+    max-width: 480px;
+}
+.bottomSection {
+    padding-top: 150px;
+}
+
+.leftColumn .positionAbsolute {
+    height: 100%;
+    width: 50vw;
+    background-color: #EFF2F6;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.leftColumn .positionRelative {
+    height: 100%;
+}
+.rightСolumn {
+    padding-left: 50px !important;
+    padding-top: 210px;
+    padding-bottom: 60px;
+    padding-right: 0;
+}
+.socials div[class*="Oval"] {
+    width: auto !important;
+    height: auto !important;
+    background-color: transparent;
+}
+
+.dark .leftColumn .positionAbsolute {
+    background-color: #1C275A;
+}
+
+@media screen and (max-width: 1200px) {
+    .rightСolumn {
+        padding-left: 25px !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .rightColumn {
+        padding-top: 160px;
+        padding-left: 15px;
+    }
+    .form {
+        padding-right: 0;
+    }
+    .bottomSection {
+        padding-top: 110px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .leftColumn .positionRelative,
+    .leftColumn {
+        position: static !important;
+        height: 30vh;
+    }
+    .rightСolumn {
+        padding-left: 15px !important;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 15px !important;
+    }
+    .leftColumn .positionAbsolute {
+        height: 30vh;
+        width: 100%;
+        background-color: #EFF2F6;
+        right: 0;
+    }
+    .rightColumn {
+        padding-top: 360px;
+        padding-left: 15px;
+    }
+    .hero .navWrapper {
+        position: static !important;
+    }
+}
+@media screen and (max-width: 575px) {
+
+    .description {
+        padding-top: 20px !important;
+        max-width: 380px;
+    }
+    .socials {
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .socialsCol {
+        margin-top: 15px;
+        margin-left: 0 !important;
+
+    }
+    .hero h1 {
+        max-width: 260px;
+    }
+    .leftColumn .positionRelative,
+    .leftColumn {
+        height: 300px;
+    }
+
+   .leftColumn .positionAbsolute {
+        height: 300px;
+    }
+    .bottomSection {
+        padding-top: 75px;
+    }
+    .rightColumn {
+        padding-top: 340px;
+        padding-bottom: 40px;
+    }
+    .outer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+

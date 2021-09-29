@@ -1,0 +1,35 @@
+.contentRow {
+  margin-top: 50px;
+}
+
+.description {
+  margin-top: 10px !important;
+  padding: 0 80px !important;
+}
+
+.features div[class*="ant-collapse-content-box"] {
+    max-width: 800px;
+}
+
+@media screen and (max-width: 575px) {
+  .description {
+    margin-top: 10px !important;
+    padding: 0 !important;
+  }
+
+  .features div[class*="ant-collapse-content-box"],
+  .features div[class*="ant-collapse-header"] {
+    padding: 12px 0 !important;
+    padding-right: 40px;
+  }
+  .features div[class*="ant-collapse-content-box"] {
+    max-width: 400px;
+}
+}
+
+@media screen and (max-width: 450px) {
+  .gridWrapper {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+}

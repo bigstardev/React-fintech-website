@@ -1,0 +1,34 @@
+.features {
+    padding-bottom: 0;
+}
+.features img{
+    height: auto;
+}
+.containerFluid {
+    margin-top: 60px;
+}
+ .description {
+    padding-top: 5px  !important;
+}
+@media screen and (max-width: 1200px) {
+    .features h1 {
+        max-width: 450px;
+        margin-bottom: 5px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .description {
+        max-width: 450px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .features h1 {
+        max-width: 300px;
+    }
+    .description {
+        max-width: 320px;
+    }
+    .containerFluid {
+        margin-top: 50px;
+    }
+}

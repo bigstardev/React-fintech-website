@@ -1,0 +1,121 @@
+.hero {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.contentRow .Button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contentRow {
+    padding-top: 55px;
+}
+.buttonSection {
+    padding-top: 35px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+.buttonSection > div:first-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.description {
+    padding: 0 120px !important;
+    padding-top: 16px !important;
+}
+.hero h1 {
+    padding-top: 30px !important;
+    max-width: 600px;
+    margin: 0 auto !important;
+}
+.linkSection {
+    display: flex;
+    justify-content: center;
+    padding-top: 117px;
+    padding-bottom: 50px;
+}
+
+.dark div[class*="Frame"] svg path {
+    fill: #ffffff !important;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .description {
+        padding: 0 60px !important;
+        padding-top: 16px !important;
+    }
+    .hero h1 {
+        max-width: 500px;
+        margin: 0 auto !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .description {
+        padding: 0 0px !important;
+        padding-top: 16px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        max-width: 400px;
+        margin: 0 auto !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .buttonSection {
+        grid-gap: 15px;
+    }
+    .hero h1 {
+        padding: 0 !important;
+        padding-top: 20px !important;
+        max-width: 300px;
+        margin: 0 auto !important;
+    }
+    .hero  div[class*="Oval"] {
+        width: 35px !important;
+        height: 35px !important;
+    }
+   .description {
+        max-width: 320px;
+        margin: 0 auto !important;
+    }
+    .buttonSection {
+        padding-top: 40px;
+    }
+    .logotype svg {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    .description {
+        padding: 0 0px !important;
+        padding-top: 10px !important;
+    }
+    .linkSection {
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+    .content-row .Button {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .buttonSection {
+        grid-template-columns: 1fr;
+    }
+    .buttonSection > div {
+        display: flex;
+        justify-content: center !important;
+    }
+}
+

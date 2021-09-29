@@ -1,0 +1,99 @@
+.feature h1 {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 62px;
+    letter-spacing: -2.4px;
+    color: #18214D;
+}
+.feature {
+    padding: 20px;
+    background-color: #EFF2F6;
+    border-radius: 8px;
+}
+.feature .title {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.55px;
+    color: #18214D;
+}
+
+.feature p {
+    padding-top: 5px !important;
+}
+.feature .col {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.feature .leftCol {
+    padding-right: 0 !important;
+}
+
+.dark.feature {
+    background-color: #1D2C6B;
+}
+
+@media screen and (max-width: 1350px) {
+    .feature .title {
+        max-width: 100px;
+    }
+    .feature p {
+        padding-right: 15px !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .feature .title {
+        max-width: initial !important;
+    }
+    .feature p {
+        padding-right: 50px !important;
+    }
+}
+@media screen and (max-width: 575px) {
+
+    .feature {
+        padding: 30px;
+    }
+    .feature  >  div[class*="row"] > div[class*="col-auto"]  {
+        width: 100%;
+        padding-right: 15px !important;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .feature  h3,
+    .feature  p {
+        text-align: center !important;
+    }
+    .feature  p {
+        padding-right: 0 !important;
+        max-width: 300px;
+        margin: 0 auto !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .title {
+        font-size: 20px !important;
+        line-height: 27px !important;
+        letter-spacing: -0.5px !important;
+    }
+    .feature p {
+        padding-right: 0 !important;
+        max-width: 250px;
+        margin: 0 auto !important;
+    }
+    .feature  span[class*="Oval"] {
+        width: 48px !important;
+        height: 48px !important;
+    }
+}

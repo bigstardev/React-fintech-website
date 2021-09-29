@@ -1,0 +1,38 @@
+.swiperContainer {
+    overflow: hidden;
+    position: relative;
+}
+.swiperWrapper {
+
+}
+.swiperPagination {
+    position: static !important;
+}
+
+.swiperSlide {
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+
+.swiperPagination {
+    display: none !important;
+}
+
+@media screen and (max-width: 575px) {
+
+    .swiperSlide {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .swiperPagination {
+        display: flex !important;
+        margin-top: 30px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .swiperSlide {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+}

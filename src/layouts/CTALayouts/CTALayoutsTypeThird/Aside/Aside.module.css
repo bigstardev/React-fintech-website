@@ -1,0 +1,32 @@
+
+.description {
+    padding-top: 16px !important;
+    max-width: 420px;
+}
+.buttonRow {
+    padding-top: 36px;
+}
+
+@media screen and (max-width: 768px) {
+    .aside h1 {
+        max-width: 380px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .aside strong {
+        font-size: 13px !important;
+        line-height: 16px !important;
+        letter-spacing: -0.3px !important;
+    }
+    .description {
+        padding-top: 10px !important;
+        max-width: 320px;
+    }
+    .aside h1 {
+        max-width: 300px;
+    }
+    .col {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

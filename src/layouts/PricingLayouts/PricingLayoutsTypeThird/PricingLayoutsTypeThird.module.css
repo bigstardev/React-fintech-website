@@ -1,0 +1,50 @@
+
+.firstDescription {
+    padding: 0 !important;
+    padding-left: 30px !important;
+    padding-top: 15px !important;
+}
+.pricing h1 {
+    padding-right: 100px;
+}
+.pricingRow {
+    padding-top: 35px;
+}
+
+@media screen and (max-width: 991px) {
+    .pricing h1 {
+        padding-right: 50px;
+    }
+    .firstDescription {
+        padding: 0 !important;
+        padding-left: 0px !important;
+        padding-top: 5px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .pricing  h1 {
+        padding-right: 0;
+        max-width: 350px;
+    }
+    .firstDescription  {
+       max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .pricing h1 {
+        max-width: 250px;
+    }
+    .firstDescription {
+        max-width: initial;
+    }
+    .description {
+        max-width: initial;
+    }
+    .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+

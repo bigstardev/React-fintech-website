@@ -1,0 +1,126 @@
+.ecommerce {
+    overflow: hidden;
+}
+.ecommerce  > div > .wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 30px;
+}
+.ecommerce .leftColumn {
+    grid-column: 1/3;
+    padding-top: 100px;
+}
+.ecommerce .leftColumn > div img {
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.ecommerce .leftColumn > div > div:hover > img {
+    opacity: 0.7;
+}
+.ecommerce .middleColumn {
+    height: 100vh;
+    grid-column: 3/8;
+}
+.ecommerce .middleColumn img {
+    border-radius: 0 !important;
+}
+.ecommerce .rightColumn {
+    padding-top: 115px;
+    grid-column: 8/-1;
+    padding-left: 40px;
+}
+.ecommerce .toplevel .first {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 20px;
+    grid-gap: 15px;
+}
+.ecommerce .topLevel .brand {
+    display: flex;
+    align-items: center;
+}
+
+.ecommerce .leftColumn > div {
+    display: grid;
+    grid-template-rows: 110px 110px 110px 110px;
+    row-gap: 16px;
+}
+
+.ecommerce .leftColumn .wrapper > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px 450px;
+    grid-gap: 30px;
+    row-gap: 30px;
+}
+.ecommerce img {
+    height: 100%;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+    .ecommerce .leftColumn .wrapper > div {
+        grid-template-rows: 400px 400px;
+    }
+    .ecommerce .rightColumn {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ecommerce .leftColumn .wrapper > div {
+        grid-template-rows: 280px 280px;
+    }
+    .ecommerce .rightColumn {
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ecommerce {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .ecommerce .rightColumn {
+        margin-top: 20px;
+    }
+    .ecommerce .leftColumn .wrapper > div {
+        grid-template-rows: auto auto;
+    }
+    .ecommerce > div > .wrapper {
+        grid-template-rows: auto auto auto;
+        grid-gap: 18px;
+    }
+    .ecommerce .leftColumn {
+        padding-top: 0;
+        grid-column: 1/-1;
+    }
+    .ecommerce .middleColumn {
+        grid-column: 1/-1;
+        grid-row: 1;
+        height: auto;
+    }
+    .ecommerce  .rightColumn {
+        padding-top: 0;
+        grid-column: 1/-1;
+    }
+    .ecommerce  .leftColumn > div {
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 16px;
+        row-gap: 16px;
+        grid-gap: 18px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .ecommerce  > div > .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .ecommerce .leftColumn .wrapper > div {
+        grid-gap: 20px;
+        grid-row-gap: 20px;
+        row-gap: 20px;
+    }
+}
+

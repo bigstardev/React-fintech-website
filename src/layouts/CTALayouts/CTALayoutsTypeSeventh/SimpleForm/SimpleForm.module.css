@@ -1,0 +1,14 @@
+@media screen and (max-width: 575px) {
+    .col:nth-last-child(1) {
+        margin-top: 15px;
+    }
+
+    .inputGroup {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .button {
+        height: 50px !important;
+    }
+}

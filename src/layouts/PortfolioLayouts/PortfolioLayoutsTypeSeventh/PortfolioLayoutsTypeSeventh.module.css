@@ -1,0 +1,28 @@
+.portfolioContainer {
+    max-width: 100% !important;
+    padding: 0 !important;
+    overflow: hidden;
+}
+@media screen and (max-width: 575px) {
+    .portfolioContainer  {
+        padding: 15px !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .portfolioContainer  div[class*="col"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .portfolioContainer  div[class*="col"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

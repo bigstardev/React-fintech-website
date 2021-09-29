@@ -1,0 +1,49 @@
+.swiperContainer {
+    overflow: hidden;
+    position: relative;
+}
+.swiperWrapper {
+
+}
+.swiperContainer div[class*="swiper-slide"] {
+    text-align: left !important;
+    align-items: flex-start !important;
+    background-color: transparent !important;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+.swiperPagination {
+    display: none;
+}
+
+.swiperContainer div[class*="swiper-slide-active"] {
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 575px) {
+    .slider .swiperWrapper {
+        flex-wrap: nowrap !important;
+    }
+    .swiperContainer div[class*="swiper-slide"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .swiperPagination {
+        position: static;
+        margin-top: 20px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .swiperContainer div[class*="swiper-slide"] {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+}

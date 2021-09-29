@@ -1,0 +1,44 @@
+.aside {
+    padding-top: 33px;
+    padding-bottom: 50px;
+    padding-left: 35px;
+    padding-right: 45px;
+
+    border: 1px solid #DFE4EA;
+    border-radius: 8px;
+}
+
+.description {
+    margin-top: 5px !important;
+    margin-bottom: 20px !important;
+}
+
+.hint {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+    letter-spacing: -0.4px;
+    color: #3E4462;
+    opacity: 0.5;
+}
+
+/*dark*/
+
+.dark.aside {
+    border-color: #1D2C6B;
+}
+
+.dark .hint {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1199px) {
+    .aside {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

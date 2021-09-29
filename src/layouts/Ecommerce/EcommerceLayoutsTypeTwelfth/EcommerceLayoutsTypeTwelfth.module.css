@@ -1,0 +1,34 @@
+.item {
+    padding-bottom: 30px;
+}
+.ecommerce {
+    padding-bottom: 0;
+}
+.ecommerce  div[class*="container-fluid "] {
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    background-color: #BECADA;
+    background-size: cover;
+}
+.ecommerce  img {
+    height: 100%;
+    border-radius: 8px;
+}
+
+.dark.ecommerce  div[class*="container-fluid "]   {
+    background-color: #1D2C6B;
+}
+
+@media screen and (max-width: 1200px) {
+    .ecommerce .bottomLevel {
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

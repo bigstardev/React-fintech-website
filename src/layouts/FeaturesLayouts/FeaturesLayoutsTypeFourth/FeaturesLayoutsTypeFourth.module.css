@@ -1,0 +1,42 @@
+.centerContainer {
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .features h1 {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .features h1 {
+        padding-right: 0;
+        max-width: 450px;
+    }
+    .rightColumn {
+        padding-top: 20px;
+    }
+    .features {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .centerContainer {
+        padding-top: 20px;
+    }
+    .features h1 {
+        padding-right: 0;
+        max-width: 320px;
+    }
+    .features img {
+        max-height: 250px;
+    }
+    .FeaturesLayoutsTypeFourth .features-row {
+        padding-top: 30px;
+    }
+}

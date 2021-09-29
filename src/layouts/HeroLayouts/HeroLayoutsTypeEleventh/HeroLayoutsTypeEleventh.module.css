@@ -1,0 +1,21 @@
+.testimonials h1 {
+    padding-top: 14px;
+    text-align: center !important;
+}
+
+.testimonials div[class="swiper-outer "] {
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0;
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.swiperContainer {}
+
+.swiperWrapper {}
+
+.swiperPagination {}

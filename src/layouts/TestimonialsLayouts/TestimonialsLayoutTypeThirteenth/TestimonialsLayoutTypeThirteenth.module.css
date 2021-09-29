@@ -1,0 +1,13 @@
+.title {
+    text-align: center;
+}
+.contentRow {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

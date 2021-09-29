@@ -1,0 +1,23 @@
+.Socials {
+    display: flex;
+}
+.Socials a {
+    margin-right: 16px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none !important;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+.Socials a:hover {
+    opacity: 0.7;
+}
+.Socials a:last-of-type {
+    margin-right: 0;
+}
+
+.dark.Socials svg path {
+    fill: #ffffff !important;
+}

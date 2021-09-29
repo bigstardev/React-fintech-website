@@ -1,0 +1,105 @@
+.hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.description {
+    padding-top: 14px;
+    width: 400px;
+}
+.buttonElement {
+    padding-top: 36px;
+}
+.socials {
+    padding-top: 180px;
+}
+.contentRow {
+    padding-top: 130px;
+}
+.hero  img {
+    width: auto;
+}
+.hero .socials  p {
+    display: none;
+}
+.hero .socials div[class*="Oval"] {
+    width: 24px !important;
+    height: 24px !important;
+    background-color: transparent !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .hero .secondImage {
+        right: -1000px;
+    }
+    .hero .firstImage {
+        right: -1000px;
+    }
+    .description {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .hero .secondImage {
+        right: -1100px !important;
+    }
+    .hero .firstImage {
+        right: -10px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .description {
+        max-width: 400px;
+        width: inherit;
+    }
+    .contentRow {
+        padding-top: 350px;
+    }
+    .hero .firstImage {
+        top: -210px !important;
+        left: 15px;
+
+        width: 215px;
+        height: 425px;
+    }
+    .hero .secondImage {
+        left: 65px !important;
+        top: -330px !important;
+        width: 685px;
+        height: 525px;
+    }
+    .contentRow {
+        padding-top: 350px;
+    }
+    .rightColumn {
+        padding-top: 260px;
+    }
+    .socials {
+        padding-top: 80px;
+    }
+}
+@media screen and (max-width: 450px) {
+
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hero h1 {
+        max-width: 330px;
+    }
+    .description {
+        max-width: 330px;
+    }
+    .hero  a[class*="Button"] {
+        height: 50px !important;
+        font-size: 18px !important;
+        line-height: 50px !important;
+    }
+    .buttonElement {
+        padding-top: 25px;
+    }
+   .socials {
+        padding-top: 50px;
+    }
+}

@@ -1,0 +1,99 @@
+.sliderContainer {
+    padding-top: 70px;
+}
+.tabsRow {
+    padding-top: 35px;
+}
+
+.swiperContainer {
+    overflow: hidden;
+
+}
+.swiperWrapper {
+
+}
+.swiperPagination {
+    margin-top: 30px !important;
+    position: static !important;
+}
+
+.swiperPagination >  span[class*="swiper-pagination-bullet"] {
+    margin: 0 4px;
+}
+
+.swiperContainer {
+    position: relative;
+}
+
+.swiperSlide {
+    background-color: transparent;
+    -webkit-transform: translate3d(0, 0, 0);
+    border: none;
+}
+.swiperSlide  a {
+    display: block;
+    width: 100%;
+}
+
+.swiperButtonNext,
+.swiperButtonPrev {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    height: auto;
+    margin-top: -70px !important;
+    z-index: 10;
+    cursor: pointer;
+    display: block;
+    color: transparent;
+    outline: 0px !important;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.swiperButtonPrev {
+    left: 0;
+}
+.swiperButtonNext {
+    right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .swiperButtonNext,
+    .swiperButtonPrev {
+        display: none !important;
+    }
+    .tabs {
+        padding-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .swiperButtonNext,
+    .swiperButtonPrev {
+        display: none !important;
+    }
+    .swiperPagination{
+        margin-top: 25px !important;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 575px) {
+    .sliderContainer > div[class*="row"]> div[class*="col"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

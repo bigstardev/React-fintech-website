@@ -1,0 +1,73 @@
+.swiperContainer {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 75px;
+}
+.swiperWrapper {
+
+}
+.swiperPagination {
+
+}
+
+.swiperSlide {
+    -webkit-transform: translate3d(0, 0, 0);
+    border: none;
+    background-color: transparent;
+}
+
+.swiperButtonNext,
+.swiperButtonPrev {
+    position: absolute;
+    top: 260px;
+    width: auto;
+    height: auto;
+    z-index: 10;
+    cursor: pointer;
+    display: block;
+    color: transparent;
+    outline: 0px !important;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.swiperButtonNext {
+    right: 20%;
+}
+.swiperButtonPrev {
+    left: 20%;
+}
+.swiperSlide div[class*="content-column"] {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.swiperContainer div[class*="swiper-slide-active"] div[class*="content-column"] {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media screen and (max-width: 575px) {
+    .swiperButtonNext {
+        right: 15px;
+    }
+    .swiperButtonPrev {
+        left: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .swiperButtonNext,
+    .swiperButtonPrev {
+        position: absolute;
+        top: 370px;
+    }
+    .swiperButtonPrev {
+        left: 15px;
+    }
+    .swiperButtonNext {
+        left: 65px;
+    }
+}

@@ -1,0 +1,47 @@
+.logos .col {
+    padding: 0;
+}
+.logos > div[class*="row"]{
+    justify-content: space-between;
+    margin: 0;
+}
+.dark.logos svg path {
+    fill: #ffffff;
+}
+@media screen and (max-width: 991px) {
+    .logos .col {
+        margin-bottom: 20px;
+        margin-right: 70px;
+    }
+    .logos .col:nth-of-type(4),
+    .logos .col:nth-last-of-type(1) {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .logos .col  {
+        min-width: 20%;
+        max-width: 25%;
+        margin-right: 0;
+    }
+    .logos .col svg {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .logos .col svg {
+        width: 80%;
+    }
+    .logos .col{
+        max-width: 33.3%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-right: 0;
+    }
+    .logos .col:nth-last-of-type(1) {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}

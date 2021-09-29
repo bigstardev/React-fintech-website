@@ -1,0 +1,76 @@
+.features {
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.features h1 {
+    max-width: 700px;
+    margin: 0 auto !important;
+}
+.features .description {
+    padding-top: 16px !important;
+    max-width: 550px;
+    margin: 0 auto !important;
+}
+.features img {
+    padding-top: 120px;
+}
+.features .imageContainer {
+    height: 720px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1199px) {
+    .features .imageContainer {
+        height: 600px;
+    }
+    .features .description {
+        max-width: 550px;
+    }
+
+    .features h1 {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 991px) {
+    .features .imageColumn {
+        padding-top: 100px;
+        max-height: 550px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .features .imageColumn {
+        padding-top: 100px;
+        max-height: 400px;
+    }
+    .features img {
+        padding-top: 90px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .features h1 {
+        font-size: 35px !important;
+        line-height: 45px !important;
+        letter-spacing: -2.4px !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .features h1 {
+        font-size: 28px !important;
+        line-height: 32px !important;
+        letter-spacing: -1.2px !important;
+    }
+    .features .firstContainer > div[class*="col"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .features .imageContainer {
+        height: auto;
+    }
+
+    .features  img {
+        padding-top: 50px;
+    }
+}
+

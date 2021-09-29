@@ -1,0 +1,87 @@
+
+.FeaturesLayouts {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.FeaturesLayouts h1 {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 62px;
+
+    letter-spacing: -2.4px;
+    color: #18214D;
+}
+.FeaturesLayouts .normal-text {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+
+    letter-spacing: -0.3px;
+    color: #3E4462;
+}
+.FeaturesLayouts .title {
+    text-align: left;
+}
+.FeaturesLayouts img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .FeaturesLayouts h1 {
+        font-size: 45px !important;
+        line-height: 55px !important;
+        letter-spacing: -2.4px !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .FeaturesLayouts h1 {
+        font-size: 42px !important;
+        line-height: 52px !important;
+        letter-spacing: -2.4px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .FeaturesLayouts {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .FeaturesLayouts {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    h1 + p {
+        padding-top: 10px !important;
+    }
+    .FeaturesLayouts h1 {
+        font-size: 28px !important;
+        line-height: 32px !important;
+        letter-spacing: -1.2px !important;
+    }
+    .FeaturesLayouts .normal-text {
+        font-size: 16px !important;
+        line-height: 24px !important;
+
+        letter-spacing: -0.19px !important;
+        color: #3E4462;
+    }
+    .FeaturesLayoutsTypeFirst .divider {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .FeaturesLayouts .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+        padding-right: 30px !important;
+        padding-left: 30px !important;
+    }
+}

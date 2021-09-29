@@ -1,0 +1,11 @@
+
+.testimonials .rightColumn {
+    margin-top: 35px;
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

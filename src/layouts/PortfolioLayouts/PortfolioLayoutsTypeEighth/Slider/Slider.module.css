@@ -1,0 +1,163 @@
+.swiperSlider {
+
+}
+.swiperContainer {
+    width: 100%;
+    height: 100vh;
+    max-height: 1000px !important;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+.swiperWrapper {
+
+}
+.swiperPagination {
+
+}
+
+.swiperSlide {
+    max-height: 500px !important;
+    background-color: transparent;
+    border: none;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+.swiperPagination {
+    display: none;
+}
+.swiperSlide img {
+    max-height: -webkit-fill-available;
+    max-height: fill-available;
+}
+.swiperSlide > div {
+    height: 100%;
+}
+.swiperSlide > div > div {
+    height: 100%;
+}
+.swiperSlide > div > div > div[class*="row"] {
+    height: 100%;
+}
+.swiperSlide img {
+    height: 100%;
+}
+.swiperButtonPrev:after,
+.swiperButtonNext:after {
+    display: none;
+}
+
+.swiperButtonNext,
+.swiperButtonPrev {
+    position: absolute;
+    top: 30%;
+    width: auto;
+    height: auto;
+    z-index: 10;
+    cursor: pointer;
+    display: block;
+    color: transparent;
+    outline: 0px !important;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.swiperButtonNext svg,
+.swiperButtonPrev svg {
+    transform: rotate(90deg);
+}
+.swiperButtonNext {
+    left: 0;
+    margin-left: -30px;
+    margin-top: 30px;
+}
+.swiperButtonPrev {
+    left: 0;
+    margin-left: -30px;
+}
+.swiperSlide div[class*="content-column"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.swiperContainer div[class*="swiper-slide-active"] div[class*="content-column"] {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media screen and (max-width: 991px) {
+    .swiperSlide {
+        max-height: 400px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .swiperSlide {
+        max-height: 320px !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .swiperContainer {
+        margin-top: 30px;
+    }
+    .swiperSlide div[class*="content-column"] {
+        margin-top: 30px;
+        max-width: 400px;
+        margin-left: initial !important;
+        margin-right: auto !important;
+
+        opacity: 1;
+        visibility: visible;
+    }
+    .swiperButtonNext,
+    .swiperButtonPrev {
+        position: absolute;
+        top: 450px;
+    }
+    .swiperButtonPrev {
+        left: 30px;
+    }
+    .swiperButtonNext {
+        left: 80px;
+    }
+    .swiperButtonNext svg,
+    .swiperButtonPrev svg {
+        transform: rotate(0deg);
+    }
+    .swiperButtonNext {
+        left: initial;
+        right: 15px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .swiperButtonPrev {
+        margin-left: 0;
+        margin-top: 0;
+        right: 15px;
+        left: initial;
+    }
+    .swiperSlide {
+        max-height: initial !important;
+    }
+    .swiperContainer {
+        width: 100%;
+        height: auto;
+        max-height: 1000px !important;
+        overflow: hidden;
+        padding-bottom: 0;
+    }
+    .swiperPagination {
+        position: static !important;
+        display: flex;
+        margin-top: 0;
+    }
+    .swiperButtonNext,
+    .swiperButtonPrev {
+        display: none;
+    }
+}
+

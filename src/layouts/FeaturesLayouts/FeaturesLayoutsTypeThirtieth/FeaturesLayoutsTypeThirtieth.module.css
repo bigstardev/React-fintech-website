@@ -1,0 +1,61 @@
+.features {
+  overflow: hidden;
+}
+
+.description {
+  margin-top: 10px !important;
+
+  max-width: 350px;
+}
+
+.image {
+  position: absolute;
+  left: 0;
+
+  width: 720px;
+  height: 490px;
+}
+
+.rightColumn {
+  height: 490px;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+
+  .image {
+    left: -50%;
+    margin-left: 33.3%;
+  }
+
+  .rightColumn {
+    order: -1;
+  }
+
+  .leftColumn {
+    margin-top: 40px;
+  } 
+}
+
+@media screen and (max-width: 575px) {
+  .image {
+    height: 300px;
+  }
+
+  .rightColumn {
+    height: 300px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .gridWrapper {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+}

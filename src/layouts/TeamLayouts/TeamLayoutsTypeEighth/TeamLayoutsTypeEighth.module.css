@@ -1,0 +1,52 @@
+
+.membersRow {
+    margin-top: 60px;
+}
+.item {
+    margin-bottom: 60px;
+}
+.item:nth-last-child(-n+4) {
+    margin-bottom: 0;
+}
+.description {
+    padding-top: 16px !important;
+    max-width: 550px;
+    margin: 0 auto !important;
+}
+
+@media screen and (max-width: 991px) {
+    .item {
+        margin-bottom: 50px;
+    }
+    .item:nth-last-child(-n+4) {
+        margin-bottom: 50px;
+    }
+    .item:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .teams .item {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .item {
+        margin-bottom: 40px;
+    }
+    .item:nth-last-child(-n+4) {
+        margin-bottom: 40px;
+    }
+    .membersRow {
+        margin-top: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .headerRow .col {
+        text-align: left !important;
+    }
+}

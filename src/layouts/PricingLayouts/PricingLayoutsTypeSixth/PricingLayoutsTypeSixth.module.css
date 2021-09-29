@@ -1,0 +1,71 @@
+.description {
+    padding: 0 80px !important;
+    padding-top: 16px !important;
+}
+.pricingRow {
+    padding-top: 40px;
+}
+
+.item {
+    margin-bottom: 0;
+}
+.outer {
+    padding: 0 15px;
+
+}
+.item:nth-child(even) .outer {
+    border-left: 1px solid #DFE4EA;
+    border-right: 1px solid #DFE4EA;
+}
+.dark .item:nth-child(even) .outer {
+    border-left: 1px solid #1D2C6B;
+    border-right: 1px solid #1D2C6B;
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+    .description {
+        padding: 0 20px !important;
+        padding-top: 16px !important;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .item:nth-child(even) .outer {
+        border-left: none !important;
+        border-right: none !important;
+    }
+    .item:nth-child(even) .outer {
+        border-top: 1px solid #DFE4EA;
+        border-bottom: 1px solid #DFE4EA;
+    }
+    .dark .item:nth-child(even) .outer {
+        border-top: 1px solid #1D2C6B !important;
+        border-bottom: 1px solid #1D2C6B !important;
+    }
+
+    .description {
+        padding: 0 !important;
+        padding-top: 16px !important;
+        max-width: 400px;
+        margin: 0 auto !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .pricing a[class*="Button"] {
+        max-width: 220px;
+        margin: 0 auto;
+    }
+    .pricingRow {
+        padding-top: 0;
+    }
+    .description {
+        padding-top: 10px !important;
+    }
+}

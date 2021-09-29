@@ -1,0 +1,40 @@
+
+.ecommerce .rightColumn {
+    padding: 0 80px;
+    padding-right: 160px;
+    padding-top: 5px;
+}
+.EcommerceLayoutsTypeThird .Oval {
+    background-color: #ffffff;
+}
+.ecommerce img {
+    height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .ecommerce .rightColumn {
+        padding: 0 40px;
+        padding-top: 5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ecommerce .rightColumn {
+        margin-top: 30px;
+
+        padding: 0 15px;
+        padding-top: 5px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .ecommerce .leftColumn {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .outer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+

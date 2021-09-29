@@ -1,0 +1,55 @@
+.SimpleRating svg {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+}
+.SimpleRating .text {
+    padding: 0;
+    margin: 0;
+    padding-left: 3px !important;
+    padding-right: 4px !important;
+
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+
+    letter-spacing: -0.4px !important;
+    color: #3E4462 ;
+}
+.SimpleRating {
+    height: 20px;
+    display: flex;
+    width: max-content;
+    position: relative;
+    padding-left: 19px;
+    padding-right: 4px;
+    background: #EFF2F6;
+    border-radius: 4px;
+}
+.SimpleRating.secondary {
+    background-color: #EE3465;
+}
+.SimpleRating.primary {
+    background-color: #345DEE;
+}
+.SimpleRating.secondary .text,
+.SimpleRating.primary .text {
+    color: #ffffff !important;
+}
+.SimpleRating.secondary svg path,
+.SimpleRating.primary svg path{
+    fill: #ffffff !important;
+}
+.dark.SimpleRating {
+    background-color: #1D2C6B !important;
+}
+.dark .SimpleRating svg path {
+    fill: #ffffff !important;
+}
+.dark .SimpleRating .text {
+    color: #ffffff !important;
+}

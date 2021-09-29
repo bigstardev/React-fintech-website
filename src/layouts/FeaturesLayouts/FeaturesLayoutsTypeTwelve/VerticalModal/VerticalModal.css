@@ -1,0 +1,27 @@
+.dark .modal-content {
+    background-color: #1C275A;
+}
+.dark .modal-content .close {
+    color: #ffffff !important;
+}
+.dark .modal-title {
+    color: #ffffff;
+}
+.dark .modal-header {
+    border-bottom: 1px solid #345DEE;
+}
+.dark .modal-footer {
+    border-top: 1px solid #345DEE;
+}
+.modal-backdrop {
+    background: #000 !important;
+}
+.modal {
+    background: transparent !important;
+}
+
+@media screen and (max-width: 450px) {
+    .modal-dialog {
+        margin: 1.6rem;
+    }
+}

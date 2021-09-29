@@ -1,0 +1,19 @@
+
+.title {
+    padding-top: 6px;
+}
+.divider {
+    width: 100%;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+
+}
+.socials {
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 575px) {
+    .description {
+        max-width: 370px;
+    }
+}

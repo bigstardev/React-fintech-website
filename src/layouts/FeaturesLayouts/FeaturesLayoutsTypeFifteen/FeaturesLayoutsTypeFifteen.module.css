@@ -1,0 +1,55 @@
+.features {
+    overflow: hidden;
+}
+
+.divider {
+    width: 100%;
+    margin-top: 40px !important;
+    margin-bottom: 30px !important;
+}
+.description {
+    padding-top: 16px !important;
+    max-width: 286px;
+}
+ .linkColumn {
+    padding-top: 36px;
+}
+.features img {
+    width: auto;
+}
+.leftColumn img {
+    top: -35px;
+    right: 60px;
+}
+.dark .logosColumn svg path {
+    fill: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .features h1 {
+        max-width: 500px;
+    }
+
+    .features img {
+        position: static !important;
+        width: 100%;
+        height: auto;
+    }
+
+    .rightColumn {
+        margin-top: 30px;
+    }
+
+    .button {
+        font-size: 18px !important;
+        line-height: 50px !important;
+        height: 50px !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

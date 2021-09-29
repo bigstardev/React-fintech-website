@@ -1,0 +1,49 @@
+.ecommerce {
+    overflow: hidden;
+}
+.ecommerce .leftColumn .wrapper > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px 450px;
+    grid-gap: 30px;
+    row-gap: 30px;
+}
+.ecommerce img {
+    height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .ecommerce .leftColumn .wrapper > div {
+        grid-template-rows: 400px 400px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ecommerce .leftColumn .wrapper > div {
+        grid-template-rows: 280px 280px;
+    }
+    .ecommerce .rightColumn {
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ecommerce .right-column {
+        margin-top: 30px;
+    }
+
+    .ecommerce .leftColumn .wrapper > div {
+        grid-template-rows: auto auto;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .ecommerce .leftColumn .wrapper > div {
+        grid-gap: 20px;
+        grid-row-gap: 20px;
+        row-gap: 20px;
+    }
+}
+

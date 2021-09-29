@@ -1,0 +1,91 @@
+.aside .gridWrapper {
+    grid-template-rows: auto auto auto;
+    row-gap: 24px;
+}
+
+.aside .gridWrapper  .topLevel {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 16px;
+}
+.aside .gridWrapper  .middleLevel {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    row-gap: 25px;
+
+    padding-top: 20px;
+}
+.aside .gridWrapper  .middleLevel .third {
+    grid-row: 2/-1;
+    grid-column: 1/-1;
+}
+.aside .gridWrapper .bottomLevel {
+    display: grid;
+    grid-template-columns: 1fr 170px;
+    grid-gap: 15px;
+
+    padding-top: 16px;
+}
+.aside  .boldText {
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: -0.4px !important;
+    color: #18214D !important;
+}
+.aside  .price {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -1.5px;
+    color: #18214D;
+}
+.aside div[class*="Divider "] {
+    margin-top: 23px !important;
+}
+.aside .label {
+    margin-bottom: 8px !important;
+}
+.dark.aside .boldText {
+    color: #ffffff !important;
+    mix-blend-mode: normal;
+}
+.dark.aside .price {
+    color: #ffffff !important;
+}
+.dark .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: transparent;
+    border: 2px solid #1C275A;
+}
+.dark .ant-select-single.ant-select-show-arrow .ant-select-selection-item,
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    color: #ffffff !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .aside .price {
+        font-size: 30px;
+        line-height: 44px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .aside .boldText {
+        margin-top: 8px !important;
+    }
+    .aside .price {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .aside .gridWrapper .bottomLevel {
+        grid-template-columns: 1fr;
+    }
+}
+
+

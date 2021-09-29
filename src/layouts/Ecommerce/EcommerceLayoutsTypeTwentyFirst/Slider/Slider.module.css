@@ -1,0 +1,65 @@
+.swiperContainer {
+
+}
+.swiperWrapper {
+
+}
+.swiperPagination {
+
+}
+
+
+.swiperSlide {
+
+}
+
+.swiperPagination {
+    position: static;
+    margin-top: 55px !important;
+}
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #EFF2F6;
+    opacity: 1;
+    outline: none;
+}
+
+.swiperButtonNext,
+.swiperButtonPrev {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    top: auto;
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    z-index: 10;
+    cursor: pointer;
+    display: block;
+    color: transparent;
+    outline: 0px !important;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.swiperButtonNext {
+    left: 50px;
+}
+.swiperButtonNext:after,
+.swiperButtonPrev:after {
+    display: none;
+}
+
+.dark .swiperButtonNext svg path,
+.dark .swiperButtonPrev svg path {
+    fill: #ffffff !important;
+}
+
+@media screen and (max-width: 450px) {
+    .swiperPagination {
+        margin-top: 30px !important;
+    }
+}

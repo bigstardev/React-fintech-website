@@ -1,0 +1,38 @@
+.bottomLevel {
+    padding-top: 70px;
+}
+.description {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto !important;
+    margin-top: 10px !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .chartWrapper {
+        overflow-x: scroll;
+    }
+    .stats div[class="chart"]  {
+        min-width: 450px;
+        outline: 2px solid red;
+    }
+}
+@media screen and (max-width: 575px) {
+    .stats div[class*="Tabs-group"] {
+        margin-top: 30px;
+    }
+    .bottomLevel {
+        padding-top: 40px;
+    }
+    .buttonColumn {
+        padding-top: 40px;
+        justify-content: flex-start !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

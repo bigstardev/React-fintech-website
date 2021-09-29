@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+    .form div[class*="col"] {
+        margin-bottom: 15px !important;
+    }
+    .form div[class*="col"]:nth-last-of-type(1) {
+        margin-bottom: 0 !important;
+    }
+    .form div[class*="col-auto"] {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .form a[class*="Button"],
+    .form button[class*="Button"] {
+        height: 50px !important;
+        font-size: 18px !important;
+    }
+}

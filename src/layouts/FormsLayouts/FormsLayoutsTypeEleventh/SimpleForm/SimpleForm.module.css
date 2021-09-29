@@ -1,0 +1,29 @@
+
+.p15 {
+    padding-bottom: 15px;
+}
+.p20 {
+    padding-bottom: 20px;
+}
+
+.loginLink {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.4px;
+
+    color: #345DEE;
+    text-decoration: none !important;
+}
+
+@media screen and (max-width: 450px) {
+    .loginLink {
+        font-size: 13px;
+        line-height: 16px;
+    }
+}
+
+
+

@@ -1,0 +1,36 @@
+.swiperContainer {
+    overflow: hidden;
+    position: relative;
+}
+.swiperWrapper {
+
+}
+.swiperPagination {
+
+}
+.swiperSlide {
+    border: none;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.swiperPagination {
+    display: none !important;
+}
+
+@media screen and (max-width: 575px) {
+
+    .swiperContainer  {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .swiperPagination {
+        position: static;
+        display: flex !important;
+        margin-top: 30px !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+}

@@ -1,0 +1,40 @@
+.buttonRow {
+    text-align: left;
+    max-width: 360px;
+    margin: 0 auto;
+
+    display:grid;
+    grid-template-columns: auto auto 1fr;
+    grid-gap: 15px;
+    padding-top: 36px;
+}
+.description {
+    padding: 0 80px !important;
+    padding-top: 16px !important;
+}
+.middleLevel {
+    padding-top: 0;
+}
+@media screen and (max-width: 991px) {
+    .description {
+        padding: 0 30px !important;
+        padding-top: 16px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .description {
+        padding: 0 !important;
+        padding-top: 16px !important;
+    }
+    .col {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .buttonRow {
+        justify-content: center;
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        row-gap: 15px;
+    }
+}

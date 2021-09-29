@@ -1,0 +1,12 @@
+
+@media screen and (max-width: 450px) {
+    .container  {
+        padding: 0 !important;
+        overflow: hidden;
+    }
+    .testimonialsRow > div[class="col"] {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+}

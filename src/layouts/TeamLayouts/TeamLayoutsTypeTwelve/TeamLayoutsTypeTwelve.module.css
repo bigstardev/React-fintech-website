@@ -1,0 +1,13 @@
+.teams {
+
+}
+.testimonialRow {
+    padding-top: 45px;
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

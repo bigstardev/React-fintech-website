@@ -1,0 +1,143 @@
+.hero {
+    overflow: hidden;
+}
+.hero h1 {
+   max-width: 500px;
+}
+.hero section[class*="logos"] {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.buttonsSection {
+    padding-top: 38px;
+}
+.buttonsSection  div {
+    margin-right: 30px;
+}
+.buttonsSection  div:nth-last-of-type(1) {
+    margin-right: 0;
+}
+.leftColumn {
+    padding-top: 200px;
+}
+.description {
+    padding-top: 16px;
+    max-width: 415px;
+}
+.bottomLevel {
+    padding-top: 140px;
+}
+
+.rightColumn .positionRelative {
+    height: 100%;
+}
+.rightColumn .positionAbsolute {
+    height: 100%;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #EFF2F6;
+}
+.rightColumn .link {
+    display: none;
+}
+
+.dark .rightColumn .positionAbsolute {
+    background-color: #1C275A;
+}
+
+.dark .rightColumn .link {
+    color: #ffffff!important;
+}
+
+.dark a[class*="TextButton"] svg path {
+    fill: #ffffff !important;
+}
+
+@media screen and (max-width: 991px) {
+    .bottomLevel {
+        padding-top: 100px;
+    }
+    .rightColumn .positionAbsolute {
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .hero section[class*="logos"] {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 300px;
+    }
+
+    .rightColumn .positionRelative,
+    .rightColumn {
+        position: static !important;
+    }
+
+    .rightColumn .positionAbsolute {
+        height: 300px;
+        width: 100%;
+        background-color: #EFF2F6;
+        bottom: 0;
+        left: 0;
+    }
+    .leftColumn {
+        padding-top: 70px;
+    }
+    .bottomLevel {
+        padding-top: 70px;
+    }
+    .rightColumn .link {
+        display: block;
+        padding-top: 25px;
+        font-weight: 600 !important;
+        font-size: 18px !important;
+        line-height: 25px !important;
+        letter-spacing: -0.4px !important;
+        color: #3E4462 !important;
+        text-decoration: none !important;
+    }
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hero section[class*="logos"] {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        margin-bottom: 210px;
+    }
+
+    .leftColumn {
+        padding-top: 50px;
+    }
+    .hero h1 {
+        max-width: 300px;
+    }
+    .buttonsSection {
+        padding-top: 30px;
+    }
+    .HeroLayoutsTypeFirst .TextButton {
+        margin-right: 50px;
+    }
+
+    .bottomLevel {
+        padding-top: 50px;
+    }
+    .rightColumn .positionAbsolute {
+        height: 245px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .HeroLayoutsTypeFirst .TextButton {
+        margin-right: 30px;
+    }
+}

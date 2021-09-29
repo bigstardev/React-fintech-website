@@ -1,0 +1,29 @@
+.leftColumn .item {
+    margin-bottom: 0;
+}
+.rightColumn .item {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .rightColumn .item {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .leftColumn .item {
+        margin-bottom: 30px;
+    }
+    .rightColumn .item {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

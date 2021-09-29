@@ -1,0 +1,50 @@
+.buttonRow {
+    padding-top: 54px;
+}
+.portfolioRow {
+    padding-top: 54px;
+}
+.item {
+    margin-bottom: 30px;
+}
+
+.portfolioRow div[class*="bottomLevel_"] > div:first-child {
+    max-width: 220px;
+}
+
+@media screen and (max-width: 1200px) {
+    .portfolioRow div[class*="bottomLevel_"] > div:first-child {
+        max-width: 175px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .portfolioRow  div[class*="bottomLevel_"] > div:first-child {
+        max-width: initial;
+    }
+}
+@media screen and (max-width: 768px) {
+    .portfolioRow {
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .buttonRow {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .portfolioRow div[class*="bottomLevel_"] > div:first-child {
+        padding-right: 0 !important;
+        max-width: 215px;
+    }
+}
+

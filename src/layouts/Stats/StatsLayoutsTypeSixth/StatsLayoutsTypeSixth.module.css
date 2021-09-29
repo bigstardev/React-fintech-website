@@ -1,0 +1,26 @@
+.description {
+    padding-top: 16px !important;
+    max-width: 550px;
+    margin: 0 auto !important;
+}
+.statsRow {
+    margin-top: 60px;
+}
+.bottomRow {
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .statsRow {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bottomRow > div {
+        justify-content: flex-start !important;
+    }
+}

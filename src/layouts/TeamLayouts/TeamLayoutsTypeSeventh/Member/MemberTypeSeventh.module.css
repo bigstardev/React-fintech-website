@@ -1,0 +1,101 @@
+.member {
+    width: 100%;
+}
+.leftColumn {
+   min-height: 350px;
+}
+.member span {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.post {
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: -0.4px !important;
+}
+.divider {
+    width: 100%;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+.description {
+    max-width: 400px;
+}
+.title {
+    margin-top: 45px !important;
+}
+.rightColumn {
+    padding-left: 50px;
+}
+
+@media screen and (max-width: 991px) {
+    .leftColumn {
+        min-height: 330px;
+    }
+    .rightColumn {
+        padding-left: 15px;
+    }
+    .socials {
+        margin-left: initial !important;
+        margin-top: 10px;
+    }
+    .divider {
+        margin-top: 12px !important;
+        margin-bottom: 12px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .socials {
+        margin-left: auto !important;
+        margin-top: 0;
+    }
+    .rightColumn {
+        margin-top: 30px;
+    }
+    .description {
+        max-width: initial;
+    }
+    .title {
+        margin-top: 30px !important;
+    }
+    .leftColumn {
+        min-height: 300px;
+        max-height: 300px;
+    }
+    .member span > img {
+        object-fit: contain !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .leftColumn {
+        min-height: 135px;
+        max-height: 135px;
+    }
+    .member .leftColumn,
+    .member .rightColumn {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .right-column > div > div {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .member .col {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+@media screen and (max-width: 351px) {
+    .member .socials {
+        margin-left: initial !important;
+        margin-top: 10px;
+    }
+}
+

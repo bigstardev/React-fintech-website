@@ -1,0 +1,19 @@
+.action {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: -0.4px;
+  color: #EE3465;
+}
+.title {
+  margin-top: 10px !important;
+}
+.description {
+  margin-top: 10px !important;
+}
+
+@media screen and (max-width: 450px) {
+  
+}

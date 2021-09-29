@@ -1,0 +1,58 @@
+
+.members {
+    height: 100%;
+}
+.inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px 20px;
+
+    border: 2px solid #DFE4EA;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.title {
+    padding-top: 14px !important;
+}
+
+.description {
+    padding: 0 10px !important;
+}
+.person {
+    padding-top: 6px !important;
+}
+.divider {
+    width: 100%;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+
+}
+.socials {
+    margin-top: 40px;
+}
+.dark .inner {
+    border: 2px solid #1D2C6B !important;
+}
+
+
+@media screen and (max-width: 450px) {
+    .member span {
+        width: 60px !important;
+        height: 60px !important;
+        line-height: 60px !important;
+    }
+    .smallDescription {
+        font-size: 14px !important;
+        line-height: 21px !important;
+        letter-spacing: -0.3px !important;
+    }
+    .description {
+        padding: 0 12px !important;
+    }
+    .socials {
+        margin-top: 30px;
+    }
+}

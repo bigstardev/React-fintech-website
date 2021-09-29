@@ -1,0 +1,81 @@
+.pricing  div[class*="ant-table-container"] table > thead > tr:first-child th:first-child {
+    width: 60%;
+}
+.pricing  div[class*="ant-table-wrapper"] {
+    max-width: 100%;
+    min-width: 470px;
+}
+.pricing tbody[class*="ant-table-tbody"] > tr[class*="ant-table-row"]:hover > td {
+    background: transparent;
+}
+.pricing  div[class*="ant-table-wrapper"] {
+   margin-top: 40px;
+}
+.pricing  td[class*="ant-table-cell"] {
+    color:  #18214D;
+}
+.dark.pricing  td[class*="ant-table-cell"] {
+    color:  #ffffff;
+}  
+.pricing thead[class*="ant-table-thead"] > tr > th {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: -0.55px;
+
+    color: #18214D;
+    background: none;
+    border-bottom: none;
+}
+.dark.pricing thead[class*="ant-table-thead"] > tr > th {
+    color:  #ffffff;
+}
+.dark.pricing svg path {
+    fill: #ffffff;
+}
+.pricing tbody[class*="ant-table-tbody"] > tr > td {
+    border-bottom: none;
+}
+.pricing  ul[class*="ant-table-pagination"] {
+    display: none;
+}
+.pricing tbody[class*="ant-table-tbody"] > tr:nth-child(odd) > td {
+    background: #EFF2F6 !important;
+}
+.dark.pricing tbody[class*="ant-table-tbody"] > tr:nth-child(odd) > td {
+    background: #121B3F  !important;
+}
+.pricing tbody[class*="ant-table-tbody"] > tr:nth-child(odd) > td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.pricing tbody[class*="ant-table-tbody"] > tr:nth-child(odd) > td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.pricing tbody[class*="ant-table-tbody"] > tr:nth-child(odd) > td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.pricing tbody[class*="ant-table-tbody"] > tr:nth-child(odd) > td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.tablesWrapper {
+    margin-top: 20px;
+}
+.dark  div[class*="ant-table"] {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 575px) {
+   .tablesWrapper {
+       overflow-x: auto;
+   }
+   .pricing thead[class*="ant-table-thead"] > tr > th {
+       font-size: 18px;
+   }
+   .pricing  div[class*="ant-table-wrapper"] {
+    margin-top: 20px;
+ }
+}

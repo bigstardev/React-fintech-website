@@ -1,0 +1,34 @@
+.buttonRow {
+    width: 100%;
+
+    display:grid;
+    grid-template-columns: auto auto 1fr;
+    grid-gap: 15px;
+    padding-top: 36px;
+}
+.description {
+    padding-top: 16px;
+    max-width: 420px;
+}
+.middleLevel {
+    padding-top: 0;
+}
+@media screen and (max-width: 450px) {
+    .col {
+        margin-bottom: 10px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .buttonRow {
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        row-gap: 15px;
+    }
+    .description {
+        max-width: 310px;
+    }
+    .buttonRow {
+        padding-top: 30px;
+    }
+}

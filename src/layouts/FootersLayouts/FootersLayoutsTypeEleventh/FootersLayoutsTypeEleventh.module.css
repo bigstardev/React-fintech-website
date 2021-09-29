@@ -1,0 +1,146 @@
+.footer {}
+
+.footer div[class*="Socials"] {
+    margin-top: 30px;
+}
+
+.gridWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.leftColumn {
+    padding-top: 85px;
+    padding-bottom: 90px;
+
+    padding-left: 15px;
+    width: 550px;
+    margin-left: auto;
+}
+
+.rightColumn {
+    background-color: #EFF2F6;
+}
+
+.contacts {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 75px;
+    row-gap: 25px;
+}
+
+.item {}
+
+.lastItem {
+    margin-top: 125px;
+}
+
+.description {
+    margin-top: 5px !important;
+    max-width: 425px;
+}
+
+.label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+    letter-spacing: -0.4px;
+
+    color: #3E4462;
+    opacity: 0.5;
+}
+
+.target {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.55px;
+
+    color: #18214D;
+    text-decoration: none !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.target:hover {
+    color: #2e4096;
+}
+
+/*dark*/
+
+.dark .target {
+    color: #ffffff;
+}
+
+.dark .target:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dark .label {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dark .rightColumn {
+    background-color: #1D2C6B;
+}
+
+@media screen and (max-width: 1199px) {
+    .leftColumn {
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .leftColumn {
+        width: 340px;
+    }
+    .contacts {
+        grid-template-columns: 1fr;
+    }
+    .lastItem {
+        margin-top: 85px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .leftColumn {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .description {
+        margin-top: 10px !important;
+    }
+    .gridWrapper {
+        grid-template-columns: 1fr;
+    }
+    .leftColumn {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .contacts {
+        row-gap: 25px;
+    }
+    .lastItem {
+        margin-top: 25px;
+    }
+    .leftColumn {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

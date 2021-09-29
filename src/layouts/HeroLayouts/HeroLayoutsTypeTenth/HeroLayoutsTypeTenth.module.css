@@ -1,0 +1,81 @@
+.hero {
+    padding-top: 60px;
+    padding-bottom: 0;
+}
+.description {
+    padding: 0 80px !important;
+    padding-top: 16px !important;
+}
+.contentRow {
+    padding-top: 110px;
+}
+.buttonsSection {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottomLevel {
+    padding-top: 140px;
+}
+
+.companies  {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 991px) {
+    .contentRow {
+        padding-top: 50px;
+    }
+
+    .description {
+        padding: 0 30px !important;
+        padding-top: 16px !important;
+    }
+    .bottomLevel {
+        padding-top: 100px;
+    }
+
+    .companies {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        max-width: 450px;
+        margin: 0 auto !important;
+    }
+    .description {
+        padding: 0 !important;
+        padding-top: 16px !important;
+        max-width: 450px;
+        margin: 0 auto !important;
+    }
+    .companies {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .buttonsSection a[class*="PlayButton"],
+    .buttonsSection a[class*="PlayButton"] svg {
+        width: 48px !important;
+        height: 48px !important;
+    }
+
+    .bottomLevel {
+        padding-top: 60px;
+    }
+    .companies {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+}

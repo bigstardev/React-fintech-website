@@ -1,0 +1,43 @@
+.features {
+    padding: 0;
+}
+.containerFluid {
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    background-color: #BECADA;
+    background-size: cover;
+}
+.dark.containerFluid {
+    background-color: #1C275A !important;
+}
+
+@media screen and (max-width: 768px) {
+    .buttons {
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .containerFluid {
+        padding: 0;
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    .features a[class*="PlayButton"] {
+        width: 48px !important;
+        height: 48px !important;
+    }
+    .features a[class*="PlayButton"] svg {
+        width: 48px !important;
+        height: 48px !important;
+    }
+    .buttons {
+        margin-top: 65px;
+    }
+
+    .description {
+        max-width: 220px;
+    }
+}
+

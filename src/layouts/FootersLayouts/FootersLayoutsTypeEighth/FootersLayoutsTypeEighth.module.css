@@ -1,0 +1,118 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+.copyright {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+    letter-spacing: -0.2px !important;
+    color: #3E4462 !important;
+}
+.navLink {
+    padding: 0 !important;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: #3E4462 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.navLink:hover {
+    color: #000000 !important;
+}
+.navbarNav div  {
+    padding-right: 40px !important;
+}
+.navbarNav div:nth-last-child(1) {
+    padding-right: 0 !important;
+}
+.navbarBrand {
+  position: absolute;
+    margin-right: 0 !important;
+}
+.dividerRow {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.dark .copyright {
+    color: rgba(255, 255, 255, 0.5) !important;
+    mix-blend-mode: normal;
+}
+.dark .navLink:hover {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+@media screen and (max-width: 991px) {
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+    .navbarNav {
+        flex-direction: row !important;
+    }
+    .navbarNav div  {
+        padding-right: 25px !important;
+    }
+    .navbarNav div:nth-last-child(1) {
+        padding-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .navbarNav {
+        max-width: 70%;
+        flex-wrap: wrap !important;
+    }
+
+    .navbarBrand {
+      width: 100%;
+      margin-bottom: 30px;
+        order: -1;
+        position: static !important;
+        margin-left: 0 !important;
+    }
+    .navbarNav div  {
+        padding-right: 35px !important;
+    }
+    .navbarNav div:nth-last-child(1) {
+        padding-right: 0 !important;
+    }
+    .navbarBrand {
+        padding-bottom: 30px;
+    }
+    .bottomRow {
+        flex-direction: column !important;
+    }
+    .bottomRow .col:nth-child(2) {
+        margin-left: initial !important;
+        order: -1;
+    }
+    .dividerRow {
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .navbarNav div  {
+        padding-right: 15px !important;
+    }
+    .navbarNav div:nth-last-child(1) {
+        padding-right: 0 !important;
+    }
+}

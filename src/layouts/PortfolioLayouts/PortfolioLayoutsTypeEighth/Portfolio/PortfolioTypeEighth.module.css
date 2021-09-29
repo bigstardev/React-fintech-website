@@ -1,0 +1,13 @@
+.description {
+    padding-top: 16px !important;
+}
+.button {
+    margin-top: 35px;
+}
+
+@media screen and (max-width: 450px) {
+    .portfolio .col {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

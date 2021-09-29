@@ -1,0 +1,25 @@
+
+.description {
+    padding-top: 16px !important;
+    max-width: 550px;
+    margin: 0 auto !important;
+}
+ .members {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .members .col {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .members {
+        padding-top: 30px;
+    }
+}
+
+

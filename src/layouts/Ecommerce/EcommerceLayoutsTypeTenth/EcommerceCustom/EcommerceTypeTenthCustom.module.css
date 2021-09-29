@@ -1,0 +1,75 @@
+.link {
+    text-decoration: none !important;
+}
+.link  h3{
+    text-decoration: none !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.link:hover h3 {
+    opacity: 0.8;
+}
+.wrapper {
+    height: 100%;
+    padding: 20px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+.image {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.image:hover {
+    opacity: 0.75;
+}
+.title {
+    padding-top: 14px !important;
+    text-align: center;
+}
+ .price {
+    padding-top: 6px !important;
+
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 16px;
+    line-height: 22px;
+
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #18214D !important;
+}
+.topLevel {
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.ecommerceRow {
+    padding-top: 60px;
+}
+
+.dark .wrapper {
+    background: #121B3F;
+}
+.dark .price {
+    color: #ffffff !important;
+}
+
+@media screen and (max-width: 991px) {
+    .wrapper{
+        padding: 15px 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .topLevel > div {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

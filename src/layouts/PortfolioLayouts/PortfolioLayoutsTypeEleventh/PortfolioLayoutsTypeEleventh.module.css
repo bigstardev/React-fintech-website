@@ -1,0 +1,54 @@
+.card {
+    min-height: 720px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #EFF2F6;
+    border-radius: 8px;
+}
+
+.card a[class*="Button"] {
+    min-width: 160px;
+
+    margin-top: 30px;
+}
+.card a[class*="Button"]:hover {
+    border-color: #000000 !important;
+}
+
+/*dark*/
+
+.dark .card {
+    background-color: #1C275A;
+}
+
+.card a[class*="Button"]:hover {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .card {
+        min-height: 600px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .card {
+        min-height: 450px;
+    }
+    .item {
+        margin-bottom: 30px;
+    }
+    .item:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+        min-height: 420px;
+    }
+}

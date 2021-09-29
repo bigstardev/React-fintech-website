@@ -1,0 +1,50 @@
+.ecommerce {
+
+}
+.ecommerceRow {
+    padding-top: 65px;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.ecommerce a {
+    display: block;
+    text-decoration: none !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.ecommerce a:hover {
+    opacity: 0.8;
+}
+.buttonRow {
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 991px) {
+    .ecommerceRow {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ecommerce div[class*="Tabs-group"] {
+        padding-top: 30px !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .ecommerceRow {
+        grid-template-columns: 1fr;
+        padding-top: 30px;
+    }
+    .buttonRow {
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

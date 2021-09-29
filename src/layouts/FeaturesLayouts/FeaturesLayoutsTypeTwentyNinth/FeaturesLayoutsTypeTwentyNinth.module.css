@@ -1,0 +1,29 @@
+.item div[class*="Divider"] {
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+}
+
+.headerRow {
+    margin-top: 30px;
+}
+
+.headerRow:first-of-type {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 575px) {
+    .item div[class*="Divider"] {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .headerRow {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

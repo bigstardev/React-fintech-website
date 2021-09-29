@@ -1,0 +1,32 @@
+.dark.teams a:hover {
+    background-color: #162150 !important;
+    cursor: pointer;
+}
+.teams a:hover {
+    background-color: #EFF2F6;
+    cursor: pointer;
+}
+.teams a {
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 575px) {
+
+    .teams a  {
+        background-color: #EFF2F6;
+    }
+    .dark.teams a {
+        background-color: #162150;
+        cursor: pointer;
+    }
+    .teams a {
+        min-height: 270px;
+    }
+    .member span {
+        width: 44px !important;
+        height: 44px !important;
+        line-height: 44px !important;
+    }
+}

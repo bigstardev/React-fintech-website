@@ -1,0 +1,42 @@
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    padding-top: 14px !important;
+}
+.description {
+    padding-top: 6px !important;
+}
+.member a {
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.member a:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 575px) {
+    .member span {
+        width: 60px !important;
+        height: 60px !important;
+        line-height: 60px !important;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .description {
+        font-size: 14px !important;
+        line-height: 21px !important;
+        padding-top: 0 !important;
+    }
+}

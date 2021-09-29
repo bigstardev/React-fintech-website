@@ -1,0 +1,37 @@
+.contentRow {
+    margin-top: 80px;
+}
+
+.item {
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.item > div {
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .item {
+        margin-bottom: 50px;
+    }
+    .contentRow {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+        margin-bottom: 30px;
+    }
+    .item:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .contentRow {
+        margin-top: 40px;
+    }
+}

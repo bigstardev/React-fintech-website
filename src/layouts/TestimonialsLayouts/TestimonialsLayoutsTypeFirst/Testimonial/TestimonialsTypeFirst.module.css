@@ -1,0 +1,90 @@
+.testimonial {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.description {
+    padding-top: 14px !important;
+}
+.link {
+    text-decoration: none !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.link:hover {
+    opacity: 0.8;
+}
+
+.testimonial  div[class="Divider"] {
+    margin-top: 36px !important;
+    margin-bottom: 36px !important;
+}
+.title {
+    padding-top: 14px !important;
+}
+.smallText {
+    padding-top: 6px !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+
+    letter-spacing: -0.4px !important;
+    text-align: center;
+}
+.middleLevel {
+    padding-top: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.bottomLevel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial div[class*="Divider"] {
+    margin-top: 35px !important;
+    margin-bottom: 35px !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .testimonial {
+        padding: 40px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .middleLevel {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .testimonial {
+        padding: 25px 20px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .topLevel,
+    .middleLevel,
+    .bottomLevel {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .testimonial {
+        padding: 30px;
+    }
+    .boldTitle {
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
+
+}
+@media screen and (max-width: 350px) {
+    .testimonial {
+        padding: 25px 20px;
+    }
+}
+

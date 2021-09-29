@@ -1,0 +1,35 @@
+.ecommerce {
+    overflow: hidden;
+}
+
+.swiperOverflow {
+    padding-bottom: 40px;
+
+    width: calc(50vw + 1140px * 1 / 12 - 15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.rightColumn {}
+
+@media screen and (max-width: 991px) {
+    .swiperOverflow {
+        width: 100%;
+        overflow: initial;
+    }
+    .rightColumn {
+        order: -1;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+

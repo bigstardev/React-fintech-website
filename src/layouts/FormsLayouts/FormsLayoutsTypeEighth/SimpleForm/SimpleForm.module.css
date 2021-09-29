@@ -1,0 +1,17 @@
+
+.p15 {
+    padding-bottom: 15px;
+}
+.p20 {
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 450px) {
+    .form a[class*="Button"],
+    .form button[class*="Button"] {
+        height: 50px !important;
+        font-size: 18px !important;
+    }
+}
+
+
+

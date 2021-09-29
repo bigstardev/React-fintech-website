@@ -1,0 +1,13 @@
+.item {
+    margin-bottom: 38px;
+}
+.item:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .featuresRow .item {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}

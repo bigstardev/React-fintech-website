@@ -1,0 +1,21 @@
+.testimonialsRow {
+    padding-top: 65px;
+}
+.testimonials h1 {
+    padding-top: 14px !important;
+}
+.item {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 575px) {
+    .testimonialsRow {
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

@@ -1,0 +1,60 @@
+.wrapper {
+    padding: 30px;
+    border: 2px solid #DFE4EA;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.aside div[class*="Divider"] {
+    margin-top: 25px !important;
+    margin-bottom: 28px !important;
+}
+.description {
+    padding-top: 6px !important;
+}
+.aside .list {
+    padding-top: 30px;
+}
+.logos {
+    padding-top: 150px;
+}
+.dark .wrapper {
+    background-color: transparent;
+    border: 2px solid #1D2C6B;
+}
+.dark .logos svg path {
+    fill: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .aside {
+        height: 100%;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .logos {
+        margin-top: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logos {
+        padding-top: 150px;
+    }
+    .wrapper {
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .logos {
+        padding-top: 50px;
+    }
+}

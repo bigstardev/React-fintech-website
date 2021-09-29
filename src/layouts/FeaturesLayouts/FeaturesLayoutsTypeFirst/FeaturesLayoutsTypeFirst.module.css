@@ -1,0 +1,69 @@
+
+.features img {
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    padding-top: 16px !important;
+    max-width: 420px;
+}
+.playButton {
+    padding-top: 40px;
+}
+.buttonsSection  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightColumn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 75px;
+}
+.rightColumn > div:first-of-type {
+    height: 100%;
+}
+.divider {
+    width: 100%;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+
+}
+@media screen and (max-width: 768px) {
+    .features {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .rightColumn {
+        order: -1;
+        padding-left: 15px;
+    }
+    .leftColumn {
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .features a[class*="Button"],
+    .features button[class*="Button"] {
+        height: 50px !important;
+    }
+
+    .features a[class*="PlayButton"],
+    .features a[class*="PlayButton"] svg{
+        width: 48px !important;
+        height: 48px !important;
+    }
+    .features img {
+        max-height: 250px;
+    }
+    .description {
+        padding-top: 16px;
+        max-width: 310px;
+    }
+}

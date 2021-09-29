@@ -1,0 +1,39 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.testimonial .top {
+    display: flex;
+    justify-content: center;
+}
+.link {
+    text-decoration: none !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.link:hover {
+    opacity: 0.8;
+}
+.testimonial h3{
+    padding-top: 22px !important;
+}
+.testimonial .smalltext {
+    padding-top: 6px !important;
+}
+.testimonial .description {
+    padding-top: 24px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .testimonial  span[class*="ant-avatar"] {
+        width: 120px !important;
+        height: 120px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

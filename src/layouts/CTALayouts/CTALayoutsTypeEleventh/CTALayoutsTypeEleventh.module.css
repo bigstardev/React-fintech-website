@@ -1,0 +1,52 @@
+.cta {
+    padding-bottom: 0;
+}
+.cta h1 {
+    padding-top: 14px;
+}
+.buttonRow {
+    padding-top: 36px;
+}
+.cta img {
+    width: auto;
+}
+.imagesRow {
+    padding-top: 60px;
+    max-height: 430px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .cta img {
+        width: 195px;
+        height: 395px;
+    }
+    .imagesRow {
+        max-height: 260px;
+        overflow: hidden;
+    }
+    .cta img:nth-of-type(2) {
+        left: 50%;
+        margin-left: -180px !important;
+        top: 40px !important;
+    }
+    .cta img:nth-of-type(3) {
+        left: 50%  !important;
+        top: 40px !important;
+        margin-left: -15px !important;
+    }
+
+}
+@media screen and (max-width: 575px) {
+    .button {
+        height: 50px !important;
+        font-size: 18px !important;
+        line-height: 50px !important;
+    }
+    .buttonRow {
+        padding-top: 25px;
+    }
+    .imagesRow {
+        padding-top: 50px;
+    }
+}

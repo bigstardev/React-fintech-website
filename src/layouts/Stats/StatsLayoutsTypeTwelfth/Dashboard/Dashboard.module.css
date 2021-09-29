@@ -1,0 +1,63 @@
+.dashboard {}
+.statTitle {
+    padding: 15px 0 !important;
+}
+.calculate {
+    display: flex;
+    align-items: flex-end;
+
+    margin-top: 20px;
+}
+.total {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -2.4px;
+    color: #18214D;
+}
+.percent {
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 5px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: -0.3px;
+}
+.percent svg {
+    position: relative;
+    top: -2px;
+}
+.positive {
+    color: #345DEE;
+}
+.negative {
+    color: #EE3465;
+}
+
+/*dark*/
+
+.dark .total {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1199px) {
+    .total {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .total {
+        font-size: 32px;
+    }
+    .percent {
+        margin-left: 15px;
+        margin-bottom: 0;
+
+        font-size: 19px;
+    }
+}

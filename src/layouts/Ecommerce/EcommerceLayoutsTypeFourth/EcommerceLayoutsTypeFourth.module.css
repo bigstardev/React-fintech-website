@@ -1,0 +1,106 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 905px 1fr;
+    grid-gap: 30px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+.wrapper .left {
+    display: grid;
+    grid-template-columns: 1fr 665px 1fr;
+}
+.wrapper .left .content {
+    grid-column: 2/3;
+}
+.similar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 13px;
+    padding-top: 24px;
+}
+
+.imageElement img {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        grid-template-columns: 700px 1fr;
+    }
+     .wrapper .left {
+        display: grid;
+        grid-template-columns: 1fr 600px 1fr;
+    }
+}
+@media screen and (max-width: 991px) {
+    .wrapper {
+        grid-template-columns: 540px 1fr;
+    }
+    .wrapper .left {
+        display: grid;
+        grid-template-columns: 1fr 460px 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+    .imageElement img {
+        display: block;
+    }
+     .imageElement {
+        background-image: none !important;
+    }
+    .wrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+    .imageElement {
+        display: grid;
+        grid-template-columns: 1fr 540px 1fr;
+    }
+    .right {
+        grid-row: 1/2;
+        margin-top: 30px;
+    }
+    .wrapper .left {
+        display: grid;
+        grid-template-columns: 1fr 540px 1fr;
+    }
+    .imageElement .content {
+        grid-column: 2/3;
+    }
+}
+@media screen and (max-width: 575px) {
+    .wrapper .left {
+        display: grid;
+        grid-template-columns: 15px 1fr 15px;
+    }
+    .imageElement {
+        display: grid;
+        grid-template-columns: 15px 1fr 15px;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .similar {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+        padding-top: 40px;
+        border-top: 1px solid #DFE4EA;
+    }
+    .dark.similar {
+        border-top: 1px solid #1D2C6B !important;
+    }
+    .imageElement {
+        display: grid;
+        grid-template-columns: 30px 1fr 30px;
+    }
+     .wrapper .left {
+        display: grid;
+        grid-template-columns: 30px 1fr 30px;
+    }
+}
+

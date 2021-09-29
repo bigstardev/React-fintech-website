@@ -1,0 +1,29 @@
+.description {
+    padding-top: 16px !important;
+    max-width: 400px;
+}
+
+.button {
+    margin-top: 25px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+
+@media screen and (max-width: 768px) {
+  .imageContainer {
+    order: -1;
+    margin-top: 65px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

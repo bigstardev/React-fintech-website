@@ -1,0 +1,114 @@
+.ecommerce {
+    background-color: transparent !important;
+}
+.wrapper {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+.middleLevel {
+    padding-top: 16px;
+}
+.link {
+    display: block;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.link:hover {
+    opacity: 0.75;
+}
+.picture {
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.picture:hover {
+    opacity: 0.75;
+}
+.middleLevel .title {
+    text-align: left;
+}
+.bottomLevel {
+    padding-top: 32px;
+}
+.ecommerce .smallText {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: -0.4px;
+
+    color: #18214D !important;
+}
+.bottomLevel {
+    padding-top: 10px;
+}
+
+.dark .wrapper {
+    background: #0C1431;
+}
+.dark.ecommerce .smallText {
+    color: #ffffff !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .bottomLevel {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .rightColumn {
+        margin-top: 30px;
+    }
+    .rightColumn p {
+        max-width: 250px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ecommerce {
+        height: 100%;
+    }
+    .wrapper {
+        height: 100%;
+    }
+    .title {
+        font-size: 18px !important;
+    }
+}
+@media screen and (max-width: 575px) {
+    .title {
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
+    .rightColumn {
+        margin-top: 20px;
+    }
+    .ecommerce .smallText {
+        font-weight: 600 !important;
+        font-size: 20px !important;
+        line-height: 27px !important;
+        letter-spacing: -0.5px;
+    }
+    .bottomLevel {
+        padding-top: 25px;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .leftColumn,
+    .rightColumn {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .topLevel div[class*="col"],
+    .middleLevel div[class*="col"],
+    .bottomLevel div[class*="col"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

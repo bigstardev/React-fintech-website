@@ -1,0 +1,85 @@
+.cta {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 768px) {
+    .iconsFirst .item:nth-of-type(3) {
+        right: -50px !important;
+    }
+    .iconsFirst .item:nth-of-type(4) {
+        right: -70px !important;
+    }
+    .iconsFirst .item:nth-of-type(5) {
+        left: -70px !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .iconContainer {
+        max-width: 320px;
+    }
+    .cta {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    .iconsFirst .item:nth-of-type(1) {
+        top: -70px !important;
+        left: 50% !important;
+        margin-left: -40px !important;
+    }
+    .iconsFirst .item:nth-of-type(1) .Oval {
+        width: 40px;
+        height: 40px;
+    }
+    .iconsFirst .item:nth-of-type(2) {
+        top: -60px !important;
+        right: -60px !important;
+    }
+    .iconsFirst .item:nth-of-type(2) .Oval {
+        width: 40px;
+        height: 40px;
+    }
+    .iconsFirst .item:nth-of-type(3),
+    .iconsFirst .item:nth-of-type(5) {
+       display: none;
+    }
+    .iconsFirst .item:nth-of-type(4) {
+        top: -50px !important;
+        left: -50px !important;
+    }
+    .iconsSecond .item:nth-of-type(1) {
+        top: 20px !important;
+        right: 100px !important;
+    }
+    .iconsSecond  .item:nth-of-type(2) {
+        top: 40px !important;
+        left: 0 !important;
+    }
+    .iconsSecond  .item:nth-of-type(3) {
+        top: 40px !important;
+        left: 230px !important;
+    }
+    .iconsSecond  .item:nth-of-type(1) .Oval,
+    .iconsSecond  .item:nth-of-type(2) .Oval,
+    .iconsSecond  .item:nth-of-type(3) .Oval {
+        width: 40px;
+        height: 40px;
+    }
+    .iconsSecond .item:nth-of-type(4) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+
+

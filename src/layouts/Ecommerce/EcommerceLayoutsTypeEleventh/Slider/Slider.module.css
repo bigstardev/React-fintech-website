@@ -1,0 +1,70 @@
+.swiperContainer {
+    overflow: hidden;
+
+}
+.swiperWrapper {
+
+}
+.swiperPagination {
+
+
+}
+
+.swiperContainer {
+    position: relative;
+}
+
+.swiperSlide {
+    background-color: transparent;
+    -webkit-transform: translate3d(0, 0, 0);
+    border: none;
+}
+.swiperSlide  a {
+    display: block;
+    width: 100%;
+}
+
+.swiperButtonNext,
+.swiperButtonPrev {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    height: auto;
+    margin-top: -100px !important;
+    z-index: 10;
+    cursor: pointer;
+    display: block;
+    color: transparent;
+    outline: 0px !important;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.swiperButtonPrev {
+    left: 0;
+}
+.swiperButtonNext {
+    right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .swiperButtonNext,
+    .swiperButtonPrev {
+        margin-top: -110px !important;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .swiperButtonNext,
+    .swiperButtonPrev {
+       display: none !important;
+    }
+    .swiperPagination{
+        margin-top: 35px !important;
+    }
+}
+
+
+

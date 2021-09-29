@@ -1,0 +1,55 @@
+.orderInfo {
+    margin-bottom: 30px;
+}
+
+.track {
+    padding-top: 11px;
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 125%;
+    letter-spacing: -1.5px;
+    color: #18214D;
+}
+
+.firstTitle {
+    font-size: 14px;
+    line-height: 145%;
+    letter-spacing: -0.4px;
+    color: #345DEE;
+}
+
+.secondTitle {
+    padding-top: 10px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.3px;
+    color: rgba(62, 68, 98, 0.5);
+}
+
+.ordersRow {
+    margin-top: 35px;
+}
+
+.title {
+    margin-bottom: 30px !important;
+}
+
+/*dark*/
+
+.dark .track {
+    color: #ffffff;
+}
+
+.dark .secondTitle {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 575px) {
+    .aside {
+        margin-top: 15px;
+    }
+}

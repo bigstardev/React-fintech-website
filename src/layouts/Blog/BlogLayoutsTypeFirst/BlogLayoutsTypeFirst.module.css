@@ -1,0 +1,41 @@
+.title {
+    text-align: center;
+}
+
+.tabsRow {
+    padding-top: 40px;
+}
+
+.tabs div {
+    width: 100%;
+}
+
+.contentRow {
+    padding-top: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .tabsRow {
+        padding-top: 30px;
+    }
+
+    .contentRow {
+        padding-top: 50px;
+    }
+
+    .item {
+        margin-bottom: 30px;
+    }
+    
+    .item:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

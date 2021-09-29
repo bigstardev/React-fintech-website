@@ -1,0 +1,96 @@
+.blog {}
+.title {}
+.subtitle {
+    margin-top: 20px !important;
+    max-width: 600px;
+}
+.blog h3 {
+    margin-top: 30px !important;
+}
+.blog ul {
+    margin: 0;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+.blog li {
+    margin-bottom: 5px;
+}
+.blog p {
+    margin-top: 10px !important;
+}
+.cover {
+    margin-top: 30px;
+}
+.header {
+    margin-bottom: 30px;
+}
+.header span {
+    position: relative;
+    padding-right: 20px;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+    letter-spacing: -0.4px;
+    color: rgba(62, 68, 98, 0.5);
+}
+.header span:first-of-type:before,
+.header span:nth-of-type(2):before {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgba(62, 68, 98, 0.5);
+}
+
+.sticky > div {
+    display: flex;
+    flex-direction: column;
+}
+.sticky > div > a {
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+.bottom {
+    display: none;
+}
+
+/*dark*/
+
+.dark .header span {
+    color: #ffffff;
+}
+
+.dark .header span:first-of-type:before,
+.dark .header span:nth-of-type(2):before {
+    background-color: #ffffff;
+}
+
+.dark li {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .bottom {
+        display: block;
+        margin-top: 30px;
+        padding-top: 30px;
+
+        border-top: 1px solid #DFE4EA;
+    }
+    .sticky {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

@@ -1,0 +1,101 @@
+
+.divider {
+    width: 100%;
+    margin-top: 36px !important;
+    margin-bottom: 36px !important;
+
+}
+.userList {
+    padding-top: 35px;
+    width: 100%;
+}
+
+.teams img {
+    width: 100%;
+    height: 100%;
+}
+
+.leftColumn button {
+    margin-right: 30px;
+    outline: 2px solid red;
+}
+
+.leftColumn button:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.rightColumn > div {
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .leftColumn button {
+        margin-right: 12px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .rightColumn {
+        display: flex;
+        align-items: center;
+    }
+    .leftColumn button {
+        margin-bottom: 12px;
+    }
+    .leftColumn button:nth-last-child(-n+4) {
+        margin-bottom: 0;
+    }
+    .divider {
+        margin-top: 25px !important;
+        margin-bottom: 25px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .rightColumn img {
+        height: 400px;
+    }
+    .userList {
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .leftColumn button {
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    .rightColumn {
+        order: -1;
+    }
+    .leftColumn {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .rightColumn img {
+        height: 350px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .leftColumn button {
+        margin-bottom: 12px;
+    }
+    .leftColumn button:nth-last-child(-n+4) {
+        margin-bottom: 12px;
+    }
+    .divider {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    .rightColumn img {
+        height: 310px;
+    }
+}

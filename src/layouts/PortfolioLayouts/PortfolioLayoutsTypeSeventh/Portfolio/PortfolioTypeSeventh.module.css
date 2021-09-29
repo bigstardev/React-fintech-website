@@ -1,0 +1,46 @@
+.contentColumn {
+    padding-top: 30px;
+}
+.description {
+    padding-top: 8px !important;
+    max-width: 500px;
+}
+.buttonColumn {
+    padding-top: 40px;
+    display: none !important;
+}
+.link {
+    display: block;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none !important;
+}
+.link:hover {
+    opacity: 0.75;
+}
+
+@media screen and (max-width: 450px) {
+    .portfolio .col{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .contentColumn {
+        padding-top: 82px;
+    }
+    .portfolio img {
+        max-height: 320px;
+    }
+    .title {
+        max-width: 260px;
+        font-weight: 600 !important;
+        font-size: 28px !important;
+        line-height: 32px !important;
+        letter-spacing: -1.2px !important;
+    }
+    .buttonColumn {
+        display: flex !important;
+        align-items: flex-start !important;
+    }
+}

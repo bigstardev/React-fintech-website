@@ -1,0 +1,267 @@
+.CustomInput .form-control {
+    padding: 0 5px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background-color: #EFF2F6 !important;
+
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+    letter-spacing: -0.4px !important;
+    color: #18214D ;
+    height: 60px !important;
+    border: none !important;
+    background-color: #EFF2F6 !important;
+    outline: none !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+.CustomInput textarea.form-control {
+    height: auto !important;
+    padding: 10px 20px !important;
+    border-radius: 8px !important;
+}
+.CustomInput .form-control:focus::placeholder {
+    color: transparent !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.CustomInput .input-group-text {
+    border: none;
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+    background-color: #EFF2F6 !important;
+}
+.CustomInput .leftIcon .form-control {
+    padding-left: 0 !important;
+}
+.CustomInput .rightIcon .input-group-text {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+}
+.CustomInput .form-control::-webkit-input-placeholder {
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+    letter-spacing: -0.4px !important;
+
+    color: #18214D !important;
+}
+.CustomInput .form-control::-moz-placeholder {
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+    letter-spacing: -0.4px !important;
+
+    color: #18214D !important;
+}
+
+.CustomInput .form-control::placeholder {
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+    letter-spacing: -0.4px !important;
+    color: #18214D;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.CustomInput .form-control:focus::placeholder {
+    color: transparent !important;
+}
+
+.CustomInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0 !important;
+}
+.CustomInput .form-label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.3px;
+    color: #18214D;
+    text-align: left !important;
+}
+.CustomInput.big .form-control {
+    height: 50px !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    letter-spacing: -0.3px;
+}
+.CustomInput.big .form-control::-webkit-input-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    letter-spacing: -0.3px;
+}
+.CustomInput.big .form-control::-moz-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    letter-spacing: -0.3px;
+}
+.CustomInput.big .form-control:-ms-input-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    letter-spacing: -0.3px;
+}
+.CustomInput.big .form-control::-ms-input-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    letter-spacing: -0.3px;
+}
+.CustomInput.big .form-control::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    letter-spacing: -0.3px;
+}
+.CustomInput.big .form-control::-webkit-input-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    letter-spacing: -0.3px;
+}
+.CustomInput.big .form-control::-moz-placeholder { /* Firefox 19+ */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    letter-spacing: -0.3px;
+}
+.CustomInput.big .form-control:-ms-input-placeholder { /* IE 10+ */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    letter-spacing: -0.3px;
+}
+.CustomInput.big .form-control:-moz-placeholder { /* Firefox 18- */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    letter-spacing: -0.3px;
+}
+.CustomInput.big .form-label {
+    font-size: 16px;
+    line-height: 24px;
+}
+.CustomInput.big textarea.form-control {
+    height: auto !important;
+}
+
+.dark.CustomInput .form-control:focus::placeholder {
+    color: transparent !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.dark.CustomInput {
+    background-color: transparent;
+}
+
+.dark.CustomInput .input-group-text {
+    background-color: #121B3F !important;
+}
+
+.dark.CustomInput .form-control,
+.dark.CustomInput .form-control:focus {
+    background-color: #121B3F !important;
+    color: rgba(255, 255, 255, 0.5) !important;
+    mix-blend-mode: normal;
+}
+.dark .CustomInput .form-label {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+.dark.CustomInput .form-control::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+    mix-blend-mode: normal;
+}
+
+.dark.CustomInput .form-control::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+    mix-blend-mode: normal;
+}
+
+.dark.CustomInput .form-control:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+    mix-blend-mode: normal;
+}
+
+.dark.CustomInput .form-control::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+    mix-blend-mode: normal;
+}
+
+.dark.CustomInput .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+    mix-blend-mode: normal;
+}
+
+.dark.CustomInput .form-control::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+    mix-blend-mode: normal;
+}
+
+.dark.CustomInput .form-control::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(255, 255, 255, 0.5) !important;
+    mix-blend-mode: normal;
+}
+
+.dark.CustomInput .form-control:-ms-input-placeholder { /* IE 10+ */
+    color: rgba(255, 255, 255, 0.5) !important;
+    mix-blend-mode: normal;
+}
+
+.dark.CustomInput .form-control:-moz-placeholder { /* Firefox 18- */
+    color: rgba(255, 255, 255, 0.5) !important;
+    mix-blend-mode: normal;
+}
+
+.dark.CustomInput .input-group svg path {
+    fill: #ffffff;
+}
+@media screen and (max-width: 450px) {
+    .CustomInput .form-control {
+        font-size: 18px !important;
+        line-height: 25px !important;
+        height: 50px !important;
+    }
+    .CustomInput .form-control::-webkit-input-placeholder {
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .CustomInput .form-control::-moz-placeholder {
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .CustomInput .form-control::placeholder {
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+}

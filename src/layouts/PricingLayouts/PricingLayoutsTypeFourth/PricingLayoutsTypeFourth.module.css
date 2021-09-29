@@ -1,0 +1,44 @@
+.description {
+    padding-top: 16px !important;
+    max-width: 550px;
+    margin: 0 auto !important;
+}
+.switcher {
+    padding-top: 26px;
+
+    display: flex;
+    justify-content: center;
+}
+.pricingRow {
+    padding-top: 40px;
+}
+.link {
+    padding-top: 45px;
+
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .item:nth-last-child(1) {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .item {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .item:nth-last-child(1) {
+        margin-top: 20px;
+    }
+    .link {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+}

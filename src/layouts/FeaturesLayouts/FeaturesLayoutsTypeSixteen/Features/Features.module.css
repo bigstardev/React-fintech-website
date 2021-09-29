@@ -1,0 +1,34 @@
+.featuresRow .item {
+    margin-bottom: 40px;
+}
+.featuresRow .item:nth-last-child(-n+2) {
+    margin-bottom: 0;
+}
+.featuresRow {
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .featuresRow {
+        padding-top: 30px;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .featuresRow .item:nth-last-child(-n+2) {
+        margin-bottom: 30px;
+    }
+    .featuresRow .item:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .featuresRow .item {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

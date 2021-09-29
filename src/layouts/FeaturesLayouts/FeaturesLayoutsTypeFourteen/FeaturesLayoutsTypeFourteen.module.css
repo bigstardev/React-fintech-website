@@ -1,0 +1,51 @@
+.title {
+    text-align: center;
+}
+.secondLevel {
+    padding-top: 60px;
+}
+.thirdLevel {
+    padding-top: 50px;
+}
+.description {
+    padding: 0 20px;
+}
+.fourthLevel {
+    padding-top: 36px;
+}
+@media screen and (max-width: 768px) {
+    .description {
+        padding: 0 40px !important;
+    }
+    .title {
+        text-align: center;
+        padding: 0 50px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .description {
+        padding: 0 !important;
+        max-width: 310px;
+        margin: 0 auto !important;
+    }
+    .title {
+        max-width: 300px;
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+    .button {
+        height: 50px !important;
+        line-height: 50px !important;
+        font-size: 18px !important;
+    }
+    .secondLevel {
+        padding-top: 30px;
+    }
+    .thirdLevel {
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,27 @@
+.Base-Switch .wrapper {
+    display: grid;
+    grid-template-columns: auto 58px auto;
+}
+.Base-Switch .wrapper .left,
+.Base-Switch .wrapper .right {
+    display: flex;
+    align-items: center;
+}
+.Base-Switch .wrapper .left {
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.Base-Switch .wrapper .right {
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.Base-Switch .text {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    letter-spacing: -0.4px;
+    color: #18214D;
+}
+.dark .Base-Switch .text {
+    color: #ffffff !important;
+}

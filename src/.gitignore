@@ -1,0 +1,6 @@
+/config/.env
+/.idea
+/node_modules
+/build
+**/.DS_Store
+.eslintcache

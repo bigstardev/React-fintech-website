@@ -1,0 +1,22 @@
+.featuresRow {
+    padding-top: 38px;
+}
+@media screen and (max-width: 992px) {
+    .feature {
+        margin-bottom: 40px;
+    }
+    .feature:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .featuresRow {
+        padding-top: 30px;
+    }
+    .feature {
+        margin-bottom: 30px;
+    }
+    .feature:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+}

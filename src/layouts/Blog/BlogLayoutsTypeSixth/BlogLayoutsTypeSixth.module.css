@@ -1,0 +1,40 @@
+.customWrapper {
+    display: grid;
+}
+
+.item:nth-last-of-type(1) div[class*="Card"] {
+    border-color: transparent;
+}
+
+.leftColumn .customWrapper  {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.rightColumn .customWrapper  {
+
+}
+
+@media screen and (max-width: 575px) {
+    .leftColumn .customWrapper  {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+    .rightColumn {
+        margin-top: 30px;
+    }
+    .item:nth-last-of-type(1) div[class*="Card"] {
+        border-color: #DFE4EA;
+    }
+
+    .dark .item:nth-last-of-type(1) div[class*="Card"] {
+        border-color: #1D2C6B;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

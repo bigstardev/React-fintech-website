@@ -1,0 +1,30 @@
+.feature {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.bottomLevel {
+   padding-top: 16px !important;
+   text-align: center !important;
+}
+
+.title {
+    text-align: center !important;
+}
+.description {
+    padding-top: 5px !important;
+    text-align: center !important;
+}
+@media screen and (max-width: 575px) {
+
+    .bottomLevel {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .feature .col {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

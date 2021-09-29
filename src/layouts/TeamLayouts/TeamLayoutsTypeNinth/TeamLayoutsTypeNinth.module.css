@@ -1,0 +1,26 @@
+.description {
+    padding-top: 16px !important;
+    max-width: 550px;
+    margin: 0 auto !important;
+}
+.testimonialRow {
+    padding-top: 75px;
+}
+
+.dark .testimonialRow svg path {
+    fill: #ffffff !important;
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .teams .col {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .testimonialRow {
+        padding-top: 50px;
+    }
+}

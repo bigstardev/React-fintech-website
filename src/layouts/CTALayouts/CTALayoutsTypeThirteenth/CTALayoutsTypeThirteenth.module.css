@@ -1,0 +1,75 @@
+.left {
+    background: rgba(239, 242, 246, 0.4);
+}
+.dark .left {
+    background-color: rgba(28, 39, 90, 0.15);
+}
+.customGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.inner {
+    max-width: 570px;
+    padding-right: 100px;
+    padding-left: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    margin-left: auto;
+}
+.right {
+    background-color: #EFF2F6;
+}
+.dark .right {
+    background-color: #1C275A;
+}
+.cta form {
+    margin-top: 30px;
+}
+.description {
+    padding-top: 16px !important;
+    max-width: 400px;
+}
+.formsRow {
+    padding-top: 40px;
+}
+.textRow {
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 1199px) {
+    .inner {
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .customGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .right {
+        grid-row: 1;
+    }
+    .inner {
+        max-width: 540px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+        
+        margin-left: initial;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+

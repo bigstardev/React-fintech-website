@@ -1,0 +1,99 @@
+.Badge-link p,
+.Badge-link strong {
+    padding: 0;
+    margin: 0;
+}
+.Badge-link,
+.Badge-link:hover {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    grid-template-rows: 60px;
+    grid-gap: 10px;
+    padding: 0;
+
+    width: 190px;
+    height: 60px;
+
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+    letter-spacing: -0.4px;
+
+    color: #ffffff;
+    text-decoration: none !important;
+
+    border-radius: 8px;
+    box-sizing: border-box;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.Badge-link:hover {
+    opacity: 0.8;
+}
+.Badge-link:hover p,
+.Badge-link:hover strong {
+    opacity: 1;
+}
+
+.Badge-link .right {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.Badge-link .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Badge-link p {
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-align: left;
+
+    letter-spacing: -0.4px !important;
+    color: #ffffff !important;
+}
+.Badge-strong {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+    letter-spacing: -0.5px !important;
+    color: #ffffff !important;
+    text-align: left;
+}
+.Badge-link.secondary {
+    background-color: #ee3465;
+}
+.Badge-link.secondary:hover {
+    background-color: #f26389;
+}
+@media screen and (max-width: 991px) {
+    .Badge-link,
+    .Badge-link:hover {
+        width: 170px;
+        height: 55px;
+        grid-template-rows: 55px;
+    }
+    .Badge-link p {
+        font-size: 12.5px !important;
+        line-height: 18px !important;
+        letter-spacing: -0.3px !important;
+        color: #ffffff !important;
+    }
+    .Badge-strong {
+        position: relative;
+        top: -2px;
+        font-size: 18px !important;
+        line-height: 25px !important;
+        letter-spacing: -0.4px !important;
+    }
+}

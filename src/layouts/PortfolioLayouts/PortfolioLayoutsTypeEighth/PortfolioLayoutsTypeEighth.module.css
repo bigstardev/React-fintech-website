@@ -1,0 +1,26 @@
+.portfolioRow {
+    height: 100vh;
+    overflow: hidden;
+}
+.hideElement {
+    display: none;
+}
+
+@media screen and (max-width: 575px) {
+     .portfolioContainer {
+        max-width: 100%;
+        padding: 15px !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .hideElement {
+        padding-top: 60px;
+        display: block;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

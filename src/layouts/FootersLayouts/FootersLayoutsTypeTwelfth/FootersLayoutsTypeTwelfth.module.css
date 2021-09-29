@@ -1,0 +1,82 @@
+.rightColumn {
+    padding-left: 70px !important;
+    padding-bottom: 90px !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contacts {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 75px;
+    row-gap: 25px;
+}
+
+.item {}
+
+.description {
+    margin-top: 5px !important;
+    max-width: 425px;
+}
+
+.label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+    letter-spacing: -0.4px;
+
+    color: #3E4462;
+    opacity: 0.5;
+}
+
+.target {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.55px;
+
+    color: #18214D;
+    text-decoration: none !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.target:hover {
+    color: #2e4096;
+}
+
+.footer div[class*="Socials"] {
+    margin-top: 35px;
+}
+
+/*dark*/
+
+.dark .target {
+    color: #ffffff;
+}
+
+.dark .target:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dark .label {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 991px) {
+    .rightColumn {
+        padding-left: 50px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rightColumn {
+        padding-left: 15px !important;
+    }
+}

@@ -1,0 +1,133 @@
+.form {
+    overflow: hidden;
+}
+.linksRow {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+.loginLink {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.4px;
+
+    color: #345DEE;
+    text-decoration: none !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.form h2 {
+    padding-right: 10px !important;
+}
+.loginLink:hover {
+    color: #6383F2;
+}
+.hidden {
+    display: none;
+}
+.formColumn {
+    padding-top: 25px;
+}
+.customWrapper > div {
+    height: 100%;
+}
+.containerFluid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #EFF2F6;
+}
+.wrapper {
+    padding: 30px;
+    padding-top: 35px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.smallTextCustom {
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-align: center !important;
+    letter-spacing: -0.4px !important;
+}
+
+.dark .containerFluid {
+    background-color: #1C275A;
+}
+
+.dark .wrapper {
+    background-color: #0C1431;
+}
+
+@media screen and (max-width: 1200px) {
+    .rightColumn {
+        padding-left: 50px;
+    }
+    .headerCol {
+        align-items: flex-start !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+  .linksRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .containerFluid {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .rightColumn {
+        padding-left: 15px;
+        padding-top: 50px;
+    }
+   .hidden {
+        display: block;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .outer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .form h2 {
+        font-weight: 600;
+        font-size: 20px !important;
+        line-height: 27px !important;
+        letter-spacing: -0.5px !important;
+    }
+    .loginLink {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .linksRow {
+        flex-direction: column;
+    }
+
+    .form a[class*="ButtonSocial"] {
+        height: 50px;
+        line-height: 48px;
+        font-size: 18px;
+    }
+    .formColumn {
+        padding-top: 25px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .wrapper {
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+    }
+}

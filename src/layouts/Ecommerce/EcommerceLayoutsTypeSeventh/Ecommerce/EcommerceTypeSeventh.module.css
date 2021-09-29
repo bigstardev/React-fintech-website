@@ -1,0 +1,92 @@
+.ecommerce {
+    width: 100%;
+}
+.title {
+    font-size: 22px;
+    line-height: 30px;
+
+    text-align: left;
+    letter-spacing: -0.55px;
+    color: #18214D;
+}
+ .link {
+    display: block;
+    cursor: pointer;
+     text-decoration: none !important;
+}
+ .link:hover {
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 0.75;
+}
+.price {
+
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 18px;
+    line-height: 26px;
+
+    text-align: right;
+    letter-spacing: -0.3px;
+    color: #18214D;
+}
+.leftColumn a {
+    display: block;
+}
+.image {
+    border-radius: 8px;
+    min-height: 270px;
+}
+.content {
+    padding-top: 17px;
+}
+.wrapper {
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 16px;
+}
+.rightColumn {
+    display: grid;
+    grid-template-columns: 260px auto;
+}
+
+.dark .price {
+    color: #ffffff !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .title {
+        font-size: 18px !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .price {
+        font-size: 16px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .rightColumn {
+        display: grid;
+        grid-template-columns: 190px auto;
+    }
+}
+@media screen and (max-width: 575px) {
+    .title {
+        font-size: 20px !important;
+    }
+    .price {
+        font-size: 18px !important;
+    }
+    .rightColumn {
+        grid-template-columns: 310px auto;
+    }
+}
+@media screen and (max-width: 450px) {
+    .title {
+        font-size: 18px !important;
+    }
+    .rightColumn {
+        grid-template-columns: 80% auto;
+    }
+}

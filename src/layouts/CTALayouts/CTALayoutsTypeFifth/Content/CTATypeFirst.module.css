@@ -1,0 +1,81 @@
+.buttonRow {
+    width: 100%;
+
+    display:grid;
+    grid-template-columns: auto auto 1fr;
+    grid-gap: 15px;
+    padding-top: 36px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+.cta h1 {
+    padding-top: 20px !important;
+}
+.topLevel svg {
+    width: 100px;
+    height: 100px;
+}
+.description {
+    padding: 0 100px !important;
+    padding-top: 16px !important;
+}
+.middleLevel {
+    padding-top: 0;
+}
+@media screen and (max-width: 1200px) {
+    .description {
+        padding: 0 40px !important;
+        padding-top: 16px !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .buttonRow {
+        display: grid;
+        grid-template-columns: auto auto 1fr;
+        grid-gap: 15px;
+        padding-top: 36px;
+        max-width: 355px;
+        margin: 0 auto;
+    }
+    .topLevel svg {
+        width: 80px;
+        height: 80px;
+    }
+    .description {
+        padding: 0 50px !important;
+        padding-top: 16px !important;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .buttonRow {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-row-gap: 15px;
+        row-gap: 15px;
+        max-width: initial;
+        justify-content: center;
+    }
+    .cta h1 {
+        padding-top: 10px !important;
+    }
+    .topLevel svg {
+        width: 50px;
+        height: 50px;
+    }
+    .description {
+        padding: 0 !important;
+        padding-top: 16px !important;
+        max-width: 350px;
+        margin: 0 auto !important;
+    }
+    .col {
+        margin-bottom: 10px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+}

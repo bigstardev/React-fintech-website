@@ -1,0 +1,55 @@
+.member span {
+    border-radius: 8px !important;
+}
+.title {
+    padding-top: 14px !important;
+}
+.description {
+    padding-top: 6px !important;
+}
+.link {
+    display: block;
+    cursor: pointer;
+    text-decoration: none !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.link:hover {
+    opacity: 0.75;
+}
+
+@media screen and (max-width: 1200px) {
+    .member span {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .member span{
+        width: 100% !important;
+        height: 135px !important;
+        line-height: 135px !important;
+    }
+    .member span > img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: contain;
+    }
+    .title {
+        padding-top: 6px !important;
+    }
+    .description {
+        padding-top: 0 !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    .title {
+        font-size: 16px !important;
+        line-height: 25px !important;
+    }
+    .description {
+        font-size: 14px !important;
+    }
+}

@@ -1,0 +1,27 @@
+
+.description {
+    padding-top: 16px !important;
+    max-width: 560px;
+}
+.members {
+    padding-top: 55px;
+}
+
+.dark svg path {
+    fill: #ffffff !important;
+}
+
+@media screen and (max-width: 575px) {
+    .members {
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .members {
+        padding-top: 30px;
+    }
+}

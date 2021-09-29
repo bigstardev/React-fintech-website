@@ -1,0 +1,32 @@
+.description {
+    padding: 0 80px !important;
+    padding-top: 16px !important;
+}
+.formsRow {
+    padding-top: 40px;
+}
+.textRow {
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .description {
+        padding: 0 40px !important;
+        padding-top: 16px !important;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .description {
+        padding: 0 10px !important;
+        padding-top: 16px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+

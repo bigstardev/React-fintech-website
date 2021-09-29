@@ -1,0 +1,27 @@
+
+.description {
+    padding-top: 16px !important;
+    max-width: 550px;
+    margin: 0 auto !important;
+}
+.members {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 575px) {
+    .TeamLayoutsTypeFirst .ant-avatar {
+        width: 60px !important;
+        height: 60px !important;
+        line-height: 60px !important;
+    }
+    .members {
+        padding-top: 35px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

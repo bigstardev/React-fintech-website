@@ -1,0 +1,52 @@
+.container {
+    max-width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.description {
+    max-width: 600px;
+    margin: 0 auto !important;
+}
+.featuresRow {
+    padding-top: 50px;
+}
+.buttonsRow {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        max-width: 100%;
+        padding: 15px;
+        overflow: hidden;
+    }
+
+    .features h1 {
+        max-width: 400px;
+        margin: 0 auto !important;
+    }
+
+}
+@media screen and (max-width: 450px) {
+
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .features h1 {
+        max-width: 300px;
+    }
+
+    .button {
+        height: 50px !important;
+        font-size: 18px !important;
+        line-height: 50px !important;
+    }
+    .featuresRow {
+        padding-top: 30px;
+    }
+}
+
+

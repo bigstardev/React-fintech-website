@@ -1,0 +1,52 @@
+.buttonRow {
+    padding-top: 54px;
+}
+.portfolioRow {
+    padding-top: 54px;
+}
+.item {
+    margin-bottom: 30px;
+}
+.arrowLink {
+    cursor: pointer;
+    -webkit-transition: opacity 0.2s ease-in-out ;
+    -o-transition: opacity 0.2s ease-in-out ;
+    transition: opacity 0.2s ease-in-out ;
+}
+.arrowLink:hover {
+    opacity: 0 !important;
+}
+
+@media screen and (max-width: 991px) {
+    .portfolioRow  div[class*="bottomLevel_"] > div:first-child {
+        max-width: 175px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .portfolioRow  div[class*="bottomLevel_"] > div:first-child {
+        max-width: initial;
+    }
+     .portfolioRow {
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .buttonRow {
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .portfolioRow  div[class*="bottomLevel_"] > div:first-child {
+        padding-right: 0 !important;
+        max-width: 215px;
+    }
+}
+

@@ -1,0 +1,131 @@
+
+.inner {
+    padding: 35px 30px;
+    border: 2px solid #DFE4EA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.inner:hover {
+    border: 2px solid #345DEE;
+}
+.description {
+    padding-top: 6px !important;
+}
+.priceRow {
+    padding-top: 26px;
+}
+.smallText {
+    margin-left: 15px !important;
+}
+.linksRow {
+    padding-top: 30px;
+}
+.bottomLink {
+    padding-top: 26px;
+    font-family: "Inter", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #18214D !important;
+    text-align: center;
+    text-decoration: none !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    outline: 0px !important;
+}
+.bottomLink:hover {
+    opacity: 0.7;
+}
+.largeText {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 56px !important;
+    line-height: 62px !important;
+    letter-spacing: -2.4px !important;
+    color: #18214D ;
+}
+.button {
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.button:hover {
+    color: #FFFFFF !important;
+    background-color: #345DEE !important;
+    border-color: transparent !important;
+}
+.dark .inner {
+    border: 2px solid #1D2C6B;
+}
+.dark .inner:hover {
+    border: 2px solid #345DEE;
+}
+.dark .bottomLink {
+    color: #ffffff !important;
+}
+
+@media screen and (max-width: 991px) {
+    .inner {
+        padding: 35px 15px;
+    }
+    .largeText {
+        font-size: 45px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .inner {
+        padding: 35px 30px;
+    }
+    .description {
+        padding-top: 6px !important;
+        max-width: 300px;
+    }
+    .largeText {
+        font-size: 45px !important;
+        line-height: 60px !important;
+        letter-spacing: -2.4px !important;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .largeText {
+        font-weight: 600 !important;
+        font-size: 32px !important;
+        line-height: 38px !important;
+        letter-spacing: -1.3px !important;
+    }
+    .inner{
+        padding: 35px 60px;
+        border-color: transparent !important;
+    }
+    .pricing .col,
+    .pricing .topLink {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    .priceRow {
+        padding-top: 15px;
+    }
+    .description {
+        padding-top: 6px !important;
+        max-width: 220px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .inner {
+        padding: 35px 30px;
+        border-color: transparent;
+    }
+}
+
+

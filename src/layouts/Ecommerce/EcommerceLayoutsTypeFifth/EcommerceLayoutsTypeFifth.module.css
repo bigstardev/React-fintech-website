@@ -1,0 +1,62 @@
+.ecommerce .title {
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+
+    text-align: center;
+    letter-spacing: -0.55px;
+
+    color: #18214D;
+}
+.ecommerce .ecommerceRow {
+    padding-top: 60px;
+}
+.ecommerce .tabsRow {
+    padding-top: 60px;
+}
+.ecommerce .buttonRow {
+    padding-top: 60px;
+}
+.ecommerce .item {
+    margin-bottom: 30px;
+}
+.ecommerce .item:nth-last-child(-n+4) {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .ecommerce .item:nth-last-child(-n+4) {
+        margin-bottom: 30px;
+    }
+    .ecommerce .item:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .ecommerce .item:nth-last-child(-n+2) {
+        margin-bottom: 30px;
+    }
+    .ecommerce .item:nth-last-child(-n+1) {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .ecommerce .item  {
+        margin-bottom: 0;
+    }
+    .ecommerce .tabsRow {
+        padding-top: 30px;
+    }
+    .ecommerce .buttonRow {
+        padding-top: 40px;
+    }
+}
+

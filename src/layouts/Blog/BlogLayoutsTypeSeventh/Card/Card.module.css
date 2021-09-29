@@ -1,0 +1,99 @@
+.card {
+    display: flex;
+
+    min-height: 400px;
+    height: 100%;
+    background: #EFF2F6;
+    border-radius: 8px;
+}
+
+.link {
+    padding:  25px;
+
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    text-decoration: none !important;
+    transition: all 0.2s ease-in-out;
+    outline: 0px !important;
+}
+
+.link:hover {
+    opacity: 0.6;
+}
+
+.header {
+    padding-top: 10px;
+}
+
+.textContent {
+    padding-right: 20px;
+}
+
+.header span {
+    position: relative;
+    padding-right: 20px;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+    letter-spacing: -0.4px;
+    color: rgba(62, 68, 98, 0.5);
+}
+
+.header span:first-of-type:before {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgba(62, 68, 98, 0.5);
+}
+
+.title {
+    margin: 5px 0 !important;
+}
+
+.description {
+
+}
+
+/*dark*/
+
+.dark .header span {
+    color: #ffffff;
+}
+
+.dark .header span:first-of-type:before {
+    background-color: #ffffff;
+}
+
+.dark.card {
+    background-color: #1C275A;
+}
+
+@media screen and (max-width: 991px) {
+    .card {
+        min-height: 350px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .textContent {
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .card {
+        min-height: 300px;
+    }
+    .textContent {
+        padding-right: 0;
+    }
+}

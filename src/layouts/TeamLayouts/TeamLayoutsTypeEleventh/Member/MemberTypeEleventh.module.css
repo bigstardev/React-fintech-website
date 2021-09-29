@@ -1,0 +1,31 @@
+.member {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    padding-top: 24px !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: -0.4px !important;
+}
+.description  {
+    padding-top: 23px !important;
+    max-width: 445px;
+}
+.socials {
+    padding-top: 36px;
+    margin-top: auto;
+}
+@media screen and (max-width: 450px) {
+    .title {
+        padding-top: 20px !important;
+    }
+    .description {
+        padding-top: 20px !important;
+    }
+    .socials {
+        padding-top: 20px;
+        margin-top: auto;
+    }
+}

@@ -1,0 +1,25 @@
+.portfolio h1 {
+    padding-top: 12px;
+}
+.portfolio {
+    padding-top: 56px;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+    .item:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .portfolio {
+        padding-top: 30px;
+    }
+}

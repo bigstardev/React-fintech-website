@@ -1,0 +1,130 @@
+.slider {
+
+}
+.swiperContainer {
+   overflow: hidden;
+    position: relative;
+}
+.swiperContainer .blue {
+    background-color:  #345DEE !important;
+}
+.galleryTop {
+    padding-top: 45px;
+}
+.galleryTop {
+    height: auto;
+    width: 100%;
+}
+.galleryTop .swiperSlide {
+    padding-left: 180px;
+    padding-right: 180px;
+    background-color: transparent;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.galleryThumbs {
+    height: 100px;
+    box-sizing: border-box;
+    padding-bottom: 35px;
+
+    border-bottom: 1px solid #DFE4EA;
+}
+.dark .galleryThumbs {
+    border-bottom: 1px solid #162150;
+}
+.galleryThumbs .swiperWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.galleryThumbs .swiperSlide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px !important;
+    height: 65px;
+    border-radius: 50%;
+    opacity: 0.4;
+    background-color: transparent;
+    cursor: pointer;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.galleryThumbs  div[class*="swiper-slide-thumb-active"] {
+    opacity: 1 !important;
+}
+.galleryThumbs + .buttons .swiperButtonNext,
+.galleryThumbs + .buttons .swiperButtonPrev {
+    top: 55%;
+    margin-bottom: 0;
+    width: 32px;
+}
+.galleryThumbs + .buttons .swiperButtonPrev {
+    left: 150px;
+}
+.galleryThumbs + .buttons .swiperButtonNext {
+    right: 150px;
+}
+
+.swiperButtonNext:after,
+.swiperButtonPrev:after {
+    display: none;
+}
+
+.dark .swiperButtonNext svg path,
+.dark .swiperButtonPrev svg path {
+    fill: #ffffff !important;
+}
+@media screen and (max-width: 991px) {
+    .galleryTop .swiperSlide {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .galleryTop .swiperSlide {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .galleryThumbs + .buttons .swiperButtonNext,
+    .galleryThumbs + .buttons .swiperButtonPrev {
+        top: 50%;
+        margin-bottom: 0;
+    }
+    .galleryThumbs + .buttons .swiperButtonPrev {
+        left: 50px;
+    }
+    .galleryThumbs + .buttons .swiperButtonNext {
+        right: 50px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .galleryThumbs .swiperSlide {
+        width: 50px !important;
+        height: 50px;
+    }
+    .galleryTop {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .galleryTop .swiperSlide {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .galleryThumbs {
+        height: 70px;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .galleryThumbs .swiperSlide {
+        width: 45px !important;
+        height: 45px;
+    }
+}
+
+

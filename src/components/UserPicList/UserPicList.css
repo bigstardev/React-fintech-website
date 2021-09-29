@@ -1,0 +1,21 @@
+.Simple-button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    outline: 0px !important;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    opacity: 0.4;
+}
+.Simple-button.active {
+    opacity: 1;
+}
+
+@media screen and (max-width: 575px) {
+    .Simple-button .ant-avatar {
+        width: 50px !important;
+        height: 50px !important;
+        line-height: 50px !important;
+    }
+}

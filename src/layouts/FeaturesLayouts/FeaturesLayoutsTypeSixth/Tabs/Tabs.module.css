@@ -1,0 +1,90 @@
+.tabs div[class*="nav-tabs"] {
+    border-bottom: none !important;
+}
+
+.tabs div[class*="nav-tabs"] a[class*="nav-link"] {
+    position: relative;
+
+    padding: 0;
+    padding-top: 55px;
+
+    border: none;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-color: transparent !important;
+}
+
+.tabs div[class*="nav-tabs"] a[class*="nav-link"]:before {
+    content: "";
+    position: absolute;
+    top: -1.5px;
+    left: 0;
+
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.tabs div[class*="nav-tabs"] a[class*="active"]:before {
+    content: "";
+    position: absolute;
+    top: -1.5px;
+    left: 0;
+
+    width: 100%;
+    height: 2px;
+    background-color: #345DEE;
+    opacity: 1;
+    visibility: visible;
+}
+.tabs div[class*="nav-tabs"] {
+    margin-top: 55px;
+    border-top: 1px solid #dee2e6;
+}
+.buttonColumn {
+    padding-top: 36px;
+}
+.tabs div[class*="tab-content"] .description {
+    padding-top: 10px !important;
+}
+.hiddenElement {
+    display: none;
+}
+
+.dark .tabs div[class*="nav-tabs"] {
+    border-top: 1px solid #1D2C6B;
+}
+
+@media screen and (max-width: 768px) {
+    .tabs .hiddenElement {
+        display: block;
+    }
+    .tabs div[class*="tabs-visible"] a[class*="active"]:before {
+        display: none !important;
+    }
+    .tabs div[class*="tabs-visible"] {
+        margin-top: 50px;
+        border: none !important;
+    }
+    .tabs div[class*="nav-tabs"] {
+        margin-top: 50px;
+    }
+    .tabs  div[class*="tabs-visible"] .item:first-of-type  a {
+        padding-top: 0;
+    }
+
+    .tabs div[class*="nav-tabs"] a[class*="nav-link"] {
+        padding-top: 40px;
+    }
+    .tabs .hiddenElement a[class*="nav-link"] {
+        padding-top: 0 !important;
+    }
+}
+

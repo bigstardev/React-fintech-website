@@ -1,0 +1,95 @@
+.testimonial {
+    display: flex;
+    justify-content: center;
+}
+.link,
+.link > span {
+    text-decoration: none !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.link:hover,
+.link:hover > span {
+    opacity: 0.8;
+}
+.testimonial .title {
+    padding-top: 14px !important;
+}
+.testimonial .smallText {
+    padding-top: 6px !important;
+}
+
+.testimonial .rightColumn {
+    max-width: 700px;
+    margin-left: 30px !important;
+    padding-top: 20px !important;
+    padding-right: 10px !important;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .testimonial .rightColumn {
+        max-width: 630px;
+        margin-left: 30px !important;
+        padding-top: 20px !important;
+        padding-right: 10px !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .testimonial .rightColumn {
+        align-items: center !important;
+        max-width: 570px;
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+    .testimonial div[class*="row"] {
+        justify-content: center;
+    }
+    .testimonial .title,
+    .testimonial .smallText {
+        text-align: center !important;
+    }
+    .testimonial  span[class*="ant-avatar"]  {
+        width: 130px !important;
+        height: 130px !important;
+        line-height: 130px !important;
+    }
+    .testimonial .rightColumn {
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonial .rightColumn > div:nth-child(2) {
+        order: -1;
+    }
+    .testimonial .rightColumn > div:nth-child(1) {
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .testimonial .rightColumn {
+        max-width: fit-content;
+        margin-left: 0 !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 575px) {
+    .testimonial .normalText {
+        font-size: 16px !important;
+        line-height: 24px !important;
+        letter-spacing: -0.19px !important;
+        color: #3E4462;
+    }
+    .testimonial .rightColumn {
+        margin-left: 0 !important;
+        padding-top: 10px !important;
+    }
+}
+@media screen and (max-width: 350px) {
+    .testimonial .rightColumn {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

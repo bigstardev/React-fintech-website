@@ -1,0 +1,19 @@
+.wrapper {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        display: grid !important;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+}
+@media screen and (max-width: 450px) {
+    .wrapper button[class*="Button"],
+    .wrapper a[class*="Button"] {
+        height: 50px !important;
+    }
+}

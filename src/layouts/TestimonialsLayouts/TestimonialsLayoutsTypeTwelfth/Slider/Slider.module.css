@@ -1,0 +1,41 @@
+.swiperContainer {
+    overflow: hidden;
+   max-width: 80%;
+   margin: 0 auto;
+}
+.swiperWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.swiperButtonNext,
+.swiperButtonPrev {
+    position: absolute;
+    top: 65%;
+    width: auto;
+    height: auto;
+    z-index: 10;
+    cursor: pointer;
+    display: block;
+    color: transparent;
+    outline: 0px !important;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.dark .swiperButtonNext svg path,
+.dark .swiperButtonPrev svg path {
+    fill: #ffffff !important;
+}
+
+.dark svg path {
+    fill: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .swiperButtonNext,
+    .swiperButtonPrev  {
+        bottom: 10%;
+    }
+}

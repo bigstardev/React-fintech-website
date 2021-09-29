@@ -1,0 +1,27 @@
+.SmallBadge.secondary {
+    background-color: #EE3465;
+}
+.SmallBadge.primary {
+    background-color: #345DEE;
+}
+.SmallBadge {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    min-width: 50px;
+    width: max-content;
+
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #EE3465;
+    border-radius: 4px !important;
+    padding: 0 !important;
+}

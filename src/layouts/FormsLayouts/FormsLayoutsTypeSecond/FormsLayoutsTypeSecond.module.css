@@ -1,0 +1,94 @@
+.links {
+    padding-top: 20px;
+}
+.links a[class*="ButtonSocial"]:first-of-type {
+    margin-right: 15px !important;
+}
+.loginLink {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.4px;
+
+    color: #345DEE;
+    text-decoration: none !important;
+}
+
+.formColumn {
+    padding-top: 25px;
+}
+.smallTextCustom {
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-align: center !important;
+    letter-spacing: -0.4px !important;
+}
+
+.rightColumn {
+    padding-top: 30px;
+}
+
+.form a[class*="ButtonSocial"] div[class*="right"] {
+    padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .links a[class*="ButtonSocial"] {
+        font-size: 18px !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .rightColumn {
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .rightColumn {
+        padding-left: 15px;
+        padding-top: 60px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .links {
+        flex-direction: column;
+    }
+
+    .formRow {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .links a[class*="ButtonSocial"]:first-of-type {
+        margin-right: 0 !important;
+        margin-bottom: 15px !important;
+    }
+    .loginLink {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .links a[class*="ButtonSocial"] {
+        height: 50px;
+        font-size: 20px;
+        line-height: 48px;
+        font-style: normal;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .wrapper {
+        padding: 20px;
+    }
+    .form button[class*="Button"],
+    .form a[class*="Button"] {
+        height: 50px !important;
+        font-size: 18px !important;
+    }
+}
+

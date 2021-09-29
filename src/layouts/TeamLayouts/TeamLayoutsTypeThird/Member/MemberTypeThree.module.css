@@ -1,0 +1,72 @@
+
+.member {
+    height: 100%;
+}
+.link,
+.link:hover {
+    display: block;
+    text-decoration: none !important;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.link:hover {
+    opacity: 0.7;
+}
+.member header {
+    padding-top: 14px;
+}
+.description {
+    padding-top: 6px !important;
+}
+.member img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.dark .MemberTypeThree .col-auto svg path {
+    fill: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+    .member img {
+        width: 100%;
+        height: auto;
+        max-height: 280px;
+        min-height: 280px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .member img {
+        max-height: 440px;
+        min-height: 440px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .member img {
+        max-height: 320px;
+        min-height: 320px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .member .col {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .member img {
+        max-height: 265px;
+        min-height: 265px;
+    }
+    .description {
+        padding-top: 0 !important;
+        font-size: 14px !important;
+        line-height: 21px !important;
+        letter-spacing: -0.3px !important;
+    }
+    .member header {
+        padding-top: 10px;
+    }
+}
+

@@ -1,0 +1,30 @@
+.sliderRow {
+    padding-top: 56px;
+}
+.item {
+    margin-bottom: 50px;
+}
+.item:nth-last-child(-n+1) {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 575px) {
+    .features h1 {
+        max-width: 400px;
+    }
+    .sliderRow .item {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .features h1 {
+        max-width: 300px;
+    }
+    .sliderRow {
+        padding-top: 40px;
+    }
+}

@@ -1,0 +1,26 @@
+.form {
+    padding-top: 30px;
+}
+.item {
+    margin-bottom: 30px !important;
+}
+.dividerColumn {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+.dark.form label {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+@media screen and (max-width: 575px) {
+    .form label[class*="ant-checkbox-wrapper"] {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .form a[class*="Button"],
+    .form button[class*="Button"] {
+        height: 50px !important;
+        font-size: 18px !important;
+    }
+}

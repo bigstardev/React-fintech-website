@@ -1,0 +1,197 @@
+
+.ButtonSocial {
+    display: block;
+    width: auto;
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+
+    border: 2px solid;
+    border-color: transparent;
+
+    outline: 0 !important;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none;
+    cursor: pointer;
+    text-decoration: none !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: initial;
+
+}
+.ButtonSocial.large {
+    height: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+.ButtonSocial.big {
+    height: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+.ButtonSocial.small {
+    height: 40px;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+
+.ButtonSocial svg {
+    vertical-align: middle;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.ButtonSocial .left,
+.ButtonSocial .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.ButtonSocial .right {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ButtonSocial.large {
+    height: 60px;
+}
+.ButtonSocial.big {
+    height: 50px;
+}
+.ButtonSocial.small {
+    height: 40px;
+}
+.ButtonSocial svg path {
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.ButtonSocial.large .wrapper {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    height: 100%;
+}
+.ButtonSocial.big .wrapper {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    height: 100%;
+}
+.ButtonSocial.small .wrapper {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    height: 100%;
+}
+
+.ButtonSocial .left {
+    border-right: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+
+/*COLORS*/
+.ButtonSocial.primary {
+    background-color: #345DEE;
+    color: #ffffff;
+}
+.ButtonSocial.primary:hover {
+    background-color: #6383F2;
+}
+.ButtonSocial.secondary {
+    background-color: #EE3465;
+    color: #ffffff;
+}
+.ButtonSocial.secondary:hover {
+    background-color: #F26389;
+}
+.ButtonSocial.simple {
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.ButtonSocial.outline {
+    background-color: transparent;
+}
+.ButtonSocial.outline.primary {
+    border: 2px solid #345DEE;
+    color: #345DEE;
+}
+.ButtonSocial.outline.primary .left {
+    border-right: 2px solid #345DEE;
+}
+.ButtonSocial.outline.primary:hover svg path {
+    fill: #6383F2;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.ButtonSocial.outline.secondary {
+    border: 2px solid #EE3465;
+    color: #EE3465;
+}
+.ButtonSocial.outline.secondary svg path {
+    fill: #EE3465;
+}
+.ButtonSocial.outline.secondary .left {
+    border-right: 2px solid #EE3465;
+}
+.ButtonSocial.outline {
+    background-color: transparent !important;
+}
+.ButtonSocial.outline.primary {
+    color: #345DEE ;
+    border: 2px solid #345DEE ;
+}
+.ButtonSocial.outline.primary:hover,
+.ButtonSocial.outline.primary:hover .left {
+    color: #6383F2 ;
+    border-color: #6383F2 ;
+}
+.ButtonSocial.outline.secondary {
+    color: #EE3465 ;
+    border: 2px solid  #EE3465 ;
+}
+.ButtonSocial.outline.secondary:hover,
+.ButtonSocial.outline.secondary:hover .left {
+    color: #F26389 ;
+    border-color: #F26389 ;
+}
+.ButtonSocial.outline.secondary:hover svg path {
+    fill: #F26389;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.ButtonSocial.outline.neutral  {
+    color: #18214D ;
+    border: 2px solid  #DFE4EA ;
+}
+.ButtonSocial.outline.neutral:hover,
+.ButtonSocial.outline.neutral:hover .left{
+    border-color: #EEF1F4 ;
+}
+.ButtonSocial.outline.neutral:hover svg path {
+    fill: #EEF1F4;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+
+

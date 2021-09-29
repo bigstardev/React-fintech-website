@@ -1,0 +1,48 @@
+.description {
+    padding: 0 80px !important;
+    padding-top: 16px !important;
+}
+.featuresContainer {
+    padding-top: 40px;
+}
+.flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featuresRow {
+    padding-top: 70px;
+}
+
+@media screen and (max-width: 991px) {
+    .description {
+        padding: 0 40px !important;
+        padding-top: 16px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description {
+        padding: 0 15px !important;
+        padding-top: 16px !important;
+    }
+    .featuresContainer {
+        padding-top: 15px;
+    }
+    .rightColumnContent {
+        order: -1;
+    }
+    .flexContainer {
+        margin-top: 50px;
+    }
+    .featuresRow {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

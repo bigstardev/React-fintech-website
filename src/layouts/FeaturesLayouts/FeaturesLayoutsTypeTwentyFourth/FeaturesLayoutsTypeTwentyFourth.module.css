@@ -1,0 +1,42 @@
+
+.feature {
+  padding-right: 90px;
+  margin-bottom: 50px;
+}
+
+.contentRow {
+  margin-top: 90px;
+}
+
+@media screen and (max-width: 1199px) {
+  .feature {
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feature {
+    padding-right: 0;
+  }
+  .contentRow {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .contentRow {
+    margin-top: 40px;
+  }
+  .feature {
+    padding-right: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .gridWrapper {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+}
+

@@ -1,0 +1,17 @@
+.testimonials {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 575px) {
+    .testimonialsRow {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .testimonialsRow {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+}

@@ -1,0 +1,72 @@
+.features {
+    padding-bottom: 0;
+}
+.features  img {
+    height: 100%;
+}
+.features .leftColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features .leftColumn div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.description {
+    padding-top: 4px;
+}
+.features div[class*="Divider"] {
+    margin-top: 50px !important;
+}
+.logosRow {
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 991px) {
+    .features  img {
+        height: 100%;
+        max-height: 440px;
+    }
+
+    .logosRow {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .logosRow {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .features img {
+        max-height: initial;
+    }
+    .features a[class*="PlayButton"] {
+        width: 48px !important;
+        height: 48px !important;
+    }
+    .features a[class*="PlayButton"] svg {
+        width: 48px !important;
+        height: 48px !important;
+    }
+
+    .logosRow {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+}

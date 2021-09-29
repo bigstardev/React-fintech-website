@@ -1,0 +1,102 @@
+.swiperContainer {
+    position: relative;
+}
+.swiperWrapper {
+
+}
+.swiperPagination {
+
+}
+
+.swiperSlide {
+    text-align: center;
+    font-size: 18px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: transparent !important;
+    width: 1140px;
+    margin-right: 30px;
+    opacity: 0.4;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+.slider div[class*="swiper-slide-active"] {
+    opacity: 1;
+}
+
+.swiperSlide:nth-last-child(1) {
+    margin-right: 0;
+}
+.swiperButtonNext,
+.swiperButtonPrev {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: auto;
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    z-index: 10;
+    cursor: pointer;
+    display: block;
+    color: transparent;
+    outline: 0px !important;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.swiperButtonNext {
+    left: 50px;
+}
+.swiperButtonNext:after,
+.swiperButtonPrev:after {
+    display: none;
+}
+
+.dark .swiperButtonNext svg path,
+.dark .swiperButtonPrev svg path {
+    fill: #ffffff !important;
+}
+
+@media screen and (max-width: 1199px) {
+    .swiperSlide {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .swiperSlide {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .swiperWrapper  {
+        padding-bottom: 60px;
+    }
+    .swiperContainer{
+        overflow: hidden;
+    }
+    .swiperSlide {
+        width: inherit;
+        margin-right: 20px;
+    }
+    .swiperButtonNext,
+    .swiperButtonPrev {
+        left: 0;
+    }
+    .swiperButtonNext {
+        left: 50px;
+    }
+}
+

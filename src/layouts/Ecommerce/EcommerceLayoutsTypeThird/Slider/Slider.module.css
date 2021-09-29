@@ -1,0 +1,42 @@
+.swiperContainer {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+.swiperWrapper {
+
+}
+.swiperPagination {
+
+}
+
+.swiperSlide {
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.swiperButtonNext,
+.swiperButtonPrev {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    width: auto;
+    height: auto;
+    z-index: 10;
+    cursor: pointer;
+    display: block;
+    color: transparent;
+    outline: 0px !important;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.swiperButtonNext {
+    right: 20px;
+}
+.swiperButtonPrev {
+    left: 20px;
+}
+.swiperButtonNext:after,
+.swiperButtonPrev:after {
+    display: none;
+}

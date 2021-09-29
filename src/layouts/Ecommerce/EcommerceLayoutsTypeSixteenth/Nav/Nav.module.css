@@ -1,0 +1,43 @@
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav .link {
+    display: block;
+    padding-bottom: 20px !important;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+
+    letter-spacing: -0.4px;
+    color: #18214D;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.nav .link:hover {
+   opacity: 0.5;
+}
+.nav .active {
+    opacity: 0.5;
+}
+
+/*dark*/
+
+.dark.nav .link {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        margin-bottom: 20px;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav .link {
+        margin-right: 10px;
+    }
+}

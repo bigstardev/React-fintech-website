@@ -1,0 +1,22 @@
+.badge {
+    width: max-content;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    height: 20px;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: center;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background: #EE3465;
+    border-radius: 4px;
+    padding: 0 !important;
+}

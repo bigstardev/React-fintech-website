@@ -1,0 +1,109 @@
+.linksRow {
+    padding-top: 20px;
+}
+.loginLink {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.4px;
+
+    color: #345DEE;
+    text-decoration: none !important;
+}
+.loginLink:hover {
+    color: #6383F2;
+}
+.socialsColumn {
+    padding-top: 20px;
+}
+.forms .smallText {
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+
+    text-align: center;
+    letter-spacing: -0.4px;
+
+    color: #3E4462;
+}
+
+.formColumn {
+    padding-top: 25px;
+}
+
+.wrapper {
+    padding: 30px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.containerFluid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #EFF2F6;
+    background-size: cover;
+}
+.dark .wrapper {
+    background-color: #0C1431;
+}
+.dark .containerFluid {
+    background-color: #1C275A;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        padding: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .rightColumn {
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .rightColumn {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .wrapper {
+        padding: 30px;
+    }
+    .outer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .left-column .play-button svg {
+        width: 48px;
+        height: 48px;
+    }
+    .loginLink {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: right;
+        letter-spacing: -0.3px;
+    }
+    .form button[class^="Button"],
+    .form a[class^="Button"] {
+        height: 50px !important;
+        font-size: 18px !important;
+    }
+    .form a[class^="PlayButton"],
+    .form a[class^="PlayButton"] svg {
+        width: 48px !important;
+        height: 48px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper {
+        padding: 20px;
+    }
+}

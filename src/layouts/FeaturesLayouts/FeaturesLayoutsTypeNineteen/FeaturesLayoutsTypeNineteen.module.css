@@ -1,0 +1,40 @@
+
+.features div[class*="container-fluid"] {
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    background-color: #BECADA;
+    background-size: cover;
+}
+.dark div[class*="container-fluid"] {
+    background-color: #1C275A;
+}
+
+@media screen and (max-width: 991px) {
+    .features h1 {
+        max-width: 500px;
+    }
+    .features  div[class*="swiper-slide"] {
+        margin-bottom: 30px;
+    }
+    .features div[class*="swiper-slide"]:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .features h1 {
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .features h1 {
+        max-width: 350px;
+    }
+    .features div[class*="container-fluid"]{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+

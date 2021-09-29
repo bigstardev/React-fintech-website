@@ -1,0 +1,145 @@
+.tabs div[class*="nav-tabs"] {
+    border-bottom: none !important;
+}
+
+.tabs div[class*="nav-tabs"] a[class*="nav-link"]  {
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.4px;
+
+    color: #18214D !important;
+    background-color: transparent !important;
+    position: relative;
+
+    padding: 0;
+    padding-bottom: 15px;
+
+    border: none;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.dark.tabs div[class*="nav-tabs"] a[class*="nav-link"] {
+    color: #ffffff !important;
+}
+.tabs div[class*="nav-tabs"] a[class*="nav-link"]:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #345DEE;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    z-index: 999;
+
+}
+.tabs div[class*="nav-tabs"] a[class*="nav-link active"]:before {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.tabs div[class*="button-column"] {
+    padding-top: 36px;
+}
+.tabs div[class*="tab-content"] div[class*="tab-content"]  p[class*="description"] {
+    padding-top: 10px;
+}
+.tabs div[class*="content"] {
+    padding-top: 45px;
+}
+.tabs div[class*="item"] {
+    margin-bottom: 50px;
+}
+.tabs div[class*="item"]:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+.tabs div[class*="title"] {
+    text-align: left !important;
+}
+.tabs div[class*="Divider"]  {
+    margin-top: -23px !important;
+}
+.tabs div[class*="read-more"] a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.4px;
+    text-decoration: none;
+    color: #18214D;
+    cursor: pointer;
+}
+.tabs div[class*="read-more"] a:hover {
+    color: #2A3A87;
+}
+.dark.tabs div[class*="read-more"] a {
+    color: #ffffff;
+}
+.dark.tabs div[class*="read-more"] a:hover {
+    color: #D8D8D8;
+}
+@media screen and (max-width: 768px) {
+    .tabs div[class*="Divider"] {
+        margin-top: 0 !important;
+    }
+}
+@media screen and (max-width: 575px) {
+    .tabs div[class*="content"] {
+        padding-top: 15px;
+    }
+    .tabs div[class*="read-more"] {
+        display: none;
+    }
+    .tabs div[class*="tab-content"] div[class*="tab-content"]  p[class*="description"] {
+        max-width: 410px;
+    }
+    .tabs div[class*="item"] {
+        margin-bottom: 40px;
+    }
+    .tabs div[class*="item"]:nth-last-child(-n+3) {
+        margin-bottom: 40px;
+    }
+    .tabs div[class*="item"]:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .tabs div[class*="nav-tabs"] div[class*="col-4"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .tabs div[class*="features-row"] div[class*="item"]{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .tabs div[class*="tab-content"] p[class*="description"] {
+        max-width: 280px;
+    }
+    .tabs div[class*="nav-tabs"] a[class*="nav-link"] {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.3px;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    .tabs div[class*="nav-tabs"] a[class*="nav-link"]:before {
+        height: 1px;
+    }
+    .tabs div[class*="fetures-row"] {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

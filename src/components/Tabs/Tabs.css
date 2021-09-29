@@ -1,0 +1,82 @@
+
+.Tabs-item {
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-radius: 8px;
+}
+
+.Tabs-group {
+    width: 100%;
+}
+.Tabs-group .btn {
+    border-radius: 8px;
+}
+
+.Tabs-item,
+.Tabs-item:hover,
+.Tabs-item:active {
+    padding: 0 !important;
+    height: 40px;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 38px !important;
+    text-align: center;
+    letter-spacing: -0.4px !important;
+    color: #345DEE !important;
+    border: 2px solid #345DEE !important;
+    border-left: 1px solid #345DEE !important;
+    background-color: transparent !important;
+    outline: 0px !important;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.Tabs-item.active {
+    background-color: #345DEE !important;
+    color: #ffffff !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.Tabs-item:nth-child(1) {
+    border-left: 2px solid #345DEE !important;
+}
+
+.secondary .Tabs-item,
+.secondary .Tabs-item:hover,
+.secondary .Tabs-item:active {
+    color: #EE3465 !important;
+    border: 2px solid #EE3465!important;
+    border-left: 1px solid #EE3465 !important;
+}
+.secondary .Tabs-item.active {
+    background-color: #EE3465 !important;
+    color: #ffffff !important;
+}
+.secondary .Tabs-item:nth-child(1) {
+    border-left: 2px solid #EE3465 !important;
+}
+
+@media screen and (max-width: 575px) {
+    .Tabs-item,
+    .Tabs-item:hover,
+    .Tabs-item:active {
+        height: 35px;
+        font-weight: 600 !important;
+        font-size: 13px !important;
+        line-height: 33px !important;
+        text-align: center;
+        letter-spacing: -0.3px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Tabs-item,
+    .Tabs-item:hover,
+    .Tabs-item:active {
+        font-size: 11px !important;
+    }
+}

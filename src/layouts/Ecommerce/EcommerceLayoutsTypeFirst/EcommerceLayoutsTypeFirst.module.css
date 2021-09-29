@@ -1,0 +1,79 @@
+.gridWrapper {
+    max-width: 1800px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 810px 1fr;
+    grid-template-rows: 540px;
+    overflow: hidden;
+}
+.gridWrapper .leftColumn {
+    padding-top: 100px;
+
+    grid-column: 1/2;
+}
+.gridWrapper .rightColumn {
+    grid-column: 2/-1;
+}
+.gridWrapper .leftColumn .wrapper {
+    display: grid;
+    grid-template-columns: auto 540px auto;
+    grid-template-rows: 540px;
+}
+.gridWrapper .leftColumn .content {
+    grid-column: 2/3;
+}
+.rightColumn {
+    position: relative;
+    overflow: hidden;
+}
+.rightColumn img {
+    height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+   .gridWrapper {
+        grid-template-columns: 700px 1fr;
+        grid-template-rows: 540px;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 991px) {
+    .gridWrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: 540px auto;
+    }
+    .gridWrapper .leftColumn {
+        padding-top: 60px;
+        grid-column: 1/-1;
+    }
+    .gridWrapper .rightColumn {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+    .gridWrapper .leftColumn .wrapper {
+        grid-template-columns: auto 720px auto;
+        grid-template-rows: 540px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .gridWrapper .leftColumn .wrapper {
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 540px;
+    }
+    .gridWrapper {
+        grid-template-rows: 450px auto;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        grid-template-rows: 250px auto;
+    }
+    .gridWrapper .leftColumn {
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+

@@ -1,0 +1,34 @@
+.cta {
+    padding-bottom: 60px;
+}
+.textRow {
+    padding-top: 38px;
+}
+.description {
+    padding-top: 16px !important;
+    max-width: 530px;
+    margin: 0 auto !important;
+}
+.divider {
+   margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.formRow {
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .logosRow {
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .textRow {
+        padding-top: 0;
+    }
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

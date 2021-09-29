@@ -1,0 +1,35 @@
+.title {
+    margin-bottom: 30px !important;
+}
+.cardWrapper {
+    margin-bottom: 30px;
+
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-gap: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .cardWrapper {
+        grid-template-columns: 310px 310px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .cardWrapper {
+        grid-template-columns: 240px 240px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .cardWrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

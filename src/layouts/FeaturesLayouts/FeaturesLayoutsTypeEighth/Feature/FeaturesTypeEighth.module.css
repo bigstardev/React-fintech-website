@@ -1,0 +1,14 @@
+.bottomLevel {
+    padding-top: 16px !important;
+}
+
+.description {
+    padding-top: 5px !important;
+}
+
+@media screen and (max-width: 450px) {
+    .feature .col {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

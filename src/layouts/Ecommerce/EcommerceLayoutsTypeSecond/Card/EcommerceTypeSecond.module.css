@@ -1,0 +1,189 @@
+
+.ecommerce {
+    background-color: transparent !important;
+}
+.ecommerce .gridWrapper {
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
+}
+.ecommerce .gridWrapper .rightColumn {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+}
+.ecommerce .gridWrapper .leftColumn {
+    display: none;
+}
+.ecommerce .gridWrapper .first {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+.ecommerce .gridWrapper .first .topLevel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ecommerce .gridWrapper .second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    row-gap: 0;
+}
+.ecommerce .gridWrapper .third {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 15px;
+    row-gap: 20px;
+}
+.ecommerce .gridWrapper .third .topLevel,
+.ecommerce .gridWrapper .third .middleLevel,
+.ecommerce .gridWrapper .third .bottomLevel {
+    grid-column: 1/-1;
+}
+.ecommerce .gridWrapper .third .topLevel .wrapper,
+.ecommerce .gridWrapper .third .middleLevel .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+.ecommerce .second div[class*="Divider"] {
+    grid-column: 1/-1;
+}
+.ecommerce .gridWrapper .first .middleLevel {
+    padding-top: 16px;
+}
+.ecommerce .gridWrapper .first .bottomLevel {
+    padding-top: 12px;
+}
+.ecommerce .gridWrapper div[class*="Divider"] {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+.ecommerce .gridWrapper .second .div[class*="Divider"]  {
+    grid-column: 1/-1;
+}
+
+.ecommerce  li[class*="list-group-item"] {
+    padding: 0 ;
+    padding-top: 6px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.4px;
+    color: #18214D;
+    background-color: transparent;
+}
+.ecommerce  li:nth-child(1) {
+    padding-top: 0;
+}
+.ecommerce div[class*="badge"] {
+    padding: 0;
+    width: 50px;
+}
+.ecommerce  div[class*="SimpleRating"]  {
+    width: 45px;
+    margin-left: auto;
+}
+.ecommerce  .price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.55px;
+    color: #18214D;
+}
+.ecommerce  .smallText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    color: #3E4462;
+}
+.ecommerce  .shortDescription {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.ecommerce  .third .bottomLevel {
+    text-align: left;
+}
+
+.dark.ecommerce  .rightColumn {
+    background-color: #0C1431;
+}
+.dark.ecommerce  li[class*="list-group-item"] {
+    color: #ffffff;
+}
+.dark.ecommerce  .gridWrapper .first .bottomLevel {
+    color: rgba(255, 255, 255, 0.5);
+    mix-blend-mode: normal;
+}
+.dark.ecommerce .price {
+    color: #ffffff;
+}
+.dark.ecommerce .smallText {
+    color: rgba(255, 255, 255, 0.5) !important;
+    mix-blend-mode: normal;
+}
+.dark .ecommerce div[class*="SimpleRating"] {
+    background-color: #ffffff;
+}
+.dark.ecommerce div[class*="SimpleRating"] .text {
+    color: #3E4462 !important;
+}
+.dark > div[class*="SimpleRating"] svg path {
+    fill: #3E4462 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .ecommerce .gridWrapper .leftColumn {
+        display: block;
+    }
+    ecommerce .gridWrapper .rightColumn {
+        margin-top: 30px;
+    }
+
+    .dark .ecommerce .rightColumn {
+        background-color: transparent;
+    }
+}
+@media screen and (max-width: 450px) {
+    .ecommerce .gridWrapper .rightColumn {
+      padding: 0;
+    }
+    .ecommerce .gridWrapper .third .topLevel .wrapper,
+    .ecommerce .gridWrapper .third .middleLevel .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+    .ecommerce .shortDescription {
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-start;
+    }
+    .ecommerce li[class*="list-group-item"] {
+        padding-top: 11px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.3px;
+    }
+    .ecommerce  div[class*="Button"] {
+        height: 50px !important;
+        font-size: 18px !important;
+        line-height: 48px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .ecommerce div[class*="Button"] {
+        height: 40px !important;
+        font-size: 15px !important;
+        line-height: 38px !important;
+    }
+}

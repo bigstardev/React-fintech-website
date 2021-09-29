@@ -1,0 +1,39 @@
+.description {
+    padding: 0 80px !important;
+    padding-top: 14px !important;
+}
+.cta h1 {
+    padding: 0 30px !important;
+}
+.buttonRow {
+    padding-top: 36px;
+}
+@media screen and (max-width: 1200px) {
+    .cta h1 {
+        padding: 0 50px !important;
+    }
+    .description {
+        padding: 0 40px !important;
+        padding-top: 14px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cta h1 {
+        padding: 0 !important;
+        max-width: 340px;
+        margin: 0 auto !important;
+    }
+    .description {
+        padding: 0 !important;
+        padding-top: 14px !important;
+        max-width: 340px;
+        margin: 0 auto !important;
+    }
+    .buttonRow {
+        padding-top: 25px;
+    }
+}

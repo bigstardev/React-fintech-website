@@ -1,0 +1,55 @@
+
+.formColumn {
+    padding-top: 45px;
+}
+.description {
+    padding-top: 15px !important;
+}
+.hidden {
+    display: none;
+}
+.aside {
+    height: 100%;
+}
+
+.customWrapper > div {
+    height: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .rightColumn {
+        order: -1;
+        padding-bottom: 40px;
+    }
+    .rightColumn,
+    .leftColumn {
+        margin: 0 auto;
+    }
+    .headerColumn {
+        display: none;
+    }
+    .hidden {
+        display: block;
+    }
+    .formColumn {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description {
+        max-width: 320px;
+        padding-top: 10px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .leftColumn div[class*="col-12 "] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+}

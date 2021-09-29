@@ -1,0 +1,78 @@
+.swiperSlide div[class*="left-column"] {
+    display: flex;
+    justify-content: center;
+}
+.swiperSlide a[class*="Button"] {
+    margin-top: 36px;
+}
+.swiperSlide h1 {
+    max-width: 400px;
+    margin-top: auto !important;
+}
+.swiperSlide div[class*="socials"] {
+    margin-top: auto;
+}
+.swiperSlide p[class*="description"] {
+    max-width: 445px;
+}
+.swiperSlide > div {
+    height: 100%;
+}
+.swiperSlide > div > div {
+    height: 100%;
+}
+.swiperSlide > div > div > .row {
+    height: 100%;
+}
+.swiper-slide img {
+    height: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+    .swiperSlide h1 {
+        max-width: 350px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .swiperSlide div[class*="right-column"] {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .swiperSlide > div > div {
+        height: initial;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .swiperSlide > div > div {
+        height: initial !important;
+    }
+    .swiperSlide div[class*="socials"] {
+        margin-top: 40px;
+    }
+
+    .swiperSlide div[class*="right-column"]  {
+        order: -1;
+    }
+    .swiperSlide h1,
+    .swiperSlide p {
+        text-align: center !important;
+    }
+    .swiperSlide div[class*="socials"]:nth-child(1) {
+        margin-top: 60px;
+    }
+    .swiperSlide div[class*="left-column"] {
+        margin-top: 80px;
+        align-items: center;
+    }
+    .swiperSlide div[class*="right-column"] img {
+        width: 225px !important;
+        height: 450px;
+        margin: 0 auto;
+    }
+}

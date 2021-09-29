@@ -1,0 +1,53 @@
+.pricing h1 {
+    text-align: left !important;
+}
+.pricingRow {
+    padding-top: 35px;
+}
+.item {
+    margin-bottom: 35px;
+}
+.item:nth-last-child(1) {
+    margin-bottom: 0;
+}
+.tabsColumn {
+    padding-top: 0;
+}
+.dark .item > div > div {
+    border-top: 1px solid #1D2C6B;
+}
+.dark .item > div > div div:nth-last-child(2) p {
+   color: #ffffff !important;
+
+}
+
+@media screen and (max-width: 768px) {
+    .pricing h1 {
+        text-align: left !important;
+        max-width: 400px;
+    }
+    .tabsColumn {
+        padding-top: 30px;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: initial !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .pricing h1 {
+        text-align: left !important;
+        max-width: 250px;
+    }
+    .tabsColumn .wrapper {
+        max-width: 260px;
+    }
+    .tabsColumn {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+

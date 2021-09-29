@@ -1,0 +1,161 @@
+.aside .gridWrapper {
+    grid-template-rows: auto auto auto;
+    row-gap: 24px;
+}
+
+.aside .gridWrapper .topLevel {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.aside .gridWrapper h2 {
+    max-width: 445px;
+}
+.aside .gridWrapper .middleLevel {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr auto;
+    grid-gap: 15px;
+    row-gap: 25px;
+
+    padding-top: 20px;
+}
+.aside .gridWrapper .middleLevel .third {
+    display: flex;
+    align-items: flex-end;
+}
+.aside .gridWrapper .middleLevel .fourth {
+    grid-row: 2/-1;
+    grid-column: 1/-1;
+}
+.aside .gridWrapper .bottomLevel {
+    display: grid;
+    grid-template-columns: 1fr 170px;
+    grid-gap: 15px;
+
+    padding-top: 16px;
+}
+.aside .boldText {
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: -0.4px !important;
+    color: #18214D !important;
+}
+.aside .price {
+    padding-top: 5px;
+
+    font-style: normal;
+    font-weight: 600 ;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: -0.55px;
+}
+.aside div[class*="Divider"] {
+    margin-top: 23px !important;
+}
+.aside .label {
+    margin-bottom: 8px !important;
+}
+.aside .pictures {
+    padding-top: 20px;
+}
+.aside .pictures > div {
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.aside .pictures > div img {
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.aside .pictures div:hover > img {
+    opacity: 0.7;
+}
+.aside .pictures > div {
+    display: grid;
+    grid-template-columns: 95px 95px 95px 95px;
+    grid-gap: 10px;
+}
+.aside .pictures img {
+    border-radius: 8px;
+}
+.aside .description {
+    padding-top: 25px;
+}
+
+.dark.aside .boldText {
+    color: #ffffff !important;
+    mix-blend-mode: normal;
+}
+.dark.aside .price {
+    color: #ffffff;
+}
+.dark .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: transparent;
+    border: 2px solid #1C275A;
+}
+.dark .ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    color: #ffffff !important;
+}
+
+@media screen and (max-width: 991px) {
+    .aside .gridWrapper h2 {
+        max-width: 370px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aside .boldText {
+        margin-top: 8px !important;
+    }
+    .aside .price {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .aside .gridWrapper h2 {
+        max-width: 250px;
+    }
+    .aside .pictures > div {
+        grid-template-columns: 1fr  1fr  1fr  1fr;
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .aside .gridWrapper .middleLevel {
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 1fr 1fr;
+    }
+    .aside .gridWrapper .middleLevel .fourth {
+        grid-row: 2/-1;
+        grid-column: 1/-1;
+    }
+    .aside .aside div[class*="Divider"] {
+        display: none;
+    }
+    .aside .similar {
+        margin-top: 40px;
+        padding-top: 40px;
+        border-top: 1px solid #DFE4EA;
+    }
+    .aside .gridWrapper .middleLevel .third {
+        display: flex;
+        align-items: flex-end;
+        grid-column: 1/-1;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .aside .gridWrapper .bottomLevel {
+        grid-template-columns: 1fr;
+    }
+    .aside .gridWrapper h2 {
+        max-width: 180px;
+    }
+}
+
+

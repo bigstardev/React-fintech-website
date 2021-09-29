@@ -1,0 +1,30 @@
+.contentRow {
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .item:nth-last-child(1) {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .item {
+    margin-top: 30px;
+  }
+  .item:first-of-type {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contentRow {
+    padding-top: 30px;
+  }
+
+  .gridWrapper {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+}
+

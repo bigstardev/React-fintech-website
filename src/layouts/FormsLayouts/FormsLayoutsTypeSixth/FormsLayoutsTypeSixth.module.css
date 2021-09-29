@@ -1,0 +1,124 @@
+.linksRow {
+    padding-top: 20px;
+}
+.loginLink {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.4px;
+
+    color: #345DEE;
+    text-decoration: none !important;
+}
+
+.formColumn {
+    padding-top: 25px;
+}
+
+.wrapper {
+    padding: 30px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.containerFluid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #EFF2F6;
+}
+.customWrapper {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.form img {
+    width: auto;
+}
+.imagesRow {
+    padding-top: 30px;
+}
+.dark .wrapper {
+    background-color: #0C1431;
+}
+.dark .containerFluid {
+    background-color: #1D2C6B;
+}
+
+@media screen and (max-width: 1200px) {
+    .imagesRow .firstImage {
+        top: 10px;
+        z-index: 999;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .imagesRow .firstImage {
+        top: 70px;
+        z-index: 999;
+    }
+    .imagesRow .secondImage {
+        top: 0 !important;
+        left: 40px !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .rightColumn {
+        order: -1;
+        height: 370px;
+    }
+    .leftColumn {
+        margin-top: 30px;
+    }
+    .imagesRow .firstImage {
+        top: 50px;
+        width: 175px;
+        height: 345px;
+    }
+    .imagesRow .secondImage {
+        position: absolute !important;
+        top: 0 !important;
+        left: 60px !important;
+
+        width: 590px;
+        height: 365px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .loginLink {
+        margin-top: 5px;
+
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: right;
+        letter-spacing: -0.3px;
+    }
+    .form button[class*="Button"],
+    .form a[class*="Button"] {
+        height: 50px !important;
+        font-size: 18px !important;
+    }
+    .outer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and  (max-width: 375px) {
+    .headerCol {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+}
+
+@media screen and  (max-width: 320px) {
+.wrapper {
+    padding: 20px;
+}
+
+}

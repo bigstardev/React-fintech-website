@@ -1,0 +1,117 @@
+.swiperContainer {}
+
+.swiperWrapper {}
+
+.swiperPagination {}
+
+
+/*text option*/
+
+.title {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -3px;
+    color: #18214D;
+}
+
+.description {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.55px;
+    color: #18214D;
+}
+
+.swiperSlide {
+    min-height: 620px;
+    border: 2px solid #DFE4EA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.slider div[class*="swiper-slide-active"] {
+    background-color: #EFF2F6;
+    border-color: #EFF2F6;
+}
+
+.dark div[class*="swiper-slide-active"] {
+    background-color: #1D2C6B !important;
+    border-color: #1D2C6B;
+}
+
+.dark .swiperSlide {
+    background-color: transparent;
+    border: 2px solid #1D2C6B !important;
+}
+
+.dark .title,
+.dark .description {
+    color: #ffffff;
+}
+
+.swiperPagination {
+    bottom: 55px !important;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #EFF2F6;
+    opacity: 1;
+    outline: none;
+}
+
+.swiper-pagination-bullet-active {
+    background: #18214D;
+    outline: none;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 1199px) {
+    .swiperSlide {
+        min-height: 545px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title {
+        max-width: 350px;
+        font-size: 35px;
+        letter-spacing: -1.3px;
+    }
+}

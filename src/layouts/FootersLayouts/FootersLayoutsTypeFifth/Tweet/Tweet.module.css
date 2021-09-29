@@ -1,0 +1,36 @@
+.wrapper {
+    padding: 15px;
+    padding-right: 23px;
+
+    background: #EFF2F6;
+    border-radius: 8px;
+}
+.text {
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    letter-spacing: -0.4px;
+    color: #3E4462 !important;
+}
+
+.dark.wrapper {
+    background-color: #1D2C6B;
+}
+.dark.wrapper svg path {
+    fill: #ffffff;
+}
+@media screen and (max-width: 450px) {
+    .col {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .col:first-of-type {
+        padding-right: 0 !important;
+    }
+    .text {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+}

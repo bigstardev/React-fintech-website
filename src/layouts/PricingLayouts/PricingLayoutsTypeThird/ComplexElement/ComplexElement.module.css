@@ -1,0 +1,70 @@
+.complex {
+    height: 100%;
+}
+.complex div[class*="inner"] {
+    border: none;
+}
+.complex .item {
+    padding: 0;
+}
+.complex > .wrapper {
+    height: 100%;
+    max-width: initial;
+    position: relative;
+    padding: 0 15px;
+    border: 2px solid #DFE4EA;
+    border-radius: 8px;
+}
+.complex > .wrapper:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    margin-left: -1px;
+    width: 2px;
+    height: 88%;
+    background-color: #DFE4EA;
+}
+
+.complex p[class*="normal-text"] {
+    padding-right: 20px !important;
+}
+.dark.complex > .wrapper {
+    background-color: transparent !important;
+    border: 2px solid #1D2C6B;
+}
+.dark.complex > .wrapper:before {
+    background-color: #1D2C6B;
+}
+
+@media screen and (max-width: 768px) {
+
+    .complex > .wrapper:before {
+        display: none;
+    }
+    .complex > .wrapper {
+        border: none;
+    }
+    .complex div[class*="inner"]  {
+        border: 2px solid #DFE4EA;
+    }
+    .complex .item {
+        padding-top: 20px;
+    }
+
+    .dark.complex  > .wrapper {
+        background-color: transparent !important;
+        border: 2px solid transparent;
+    }
+    .dark.complex div[class*="inner"] {
+        border: 2px solid #1D2C6B;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .complex {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
